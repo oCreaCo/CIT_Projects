@@ -1,13 +1,18 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
+<<<<<<< Updated upstream
 /Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/MacOS/Unity
+=======
+/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MacOS/Unity
+>>>>>>> Stashed changes
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 /Users/evena/Documents/GitHub/CIT_Projects/HJ
 -logFile
 Logs/AssetImportWorker0.log
@@ -478,10 +483,78 @@ Received Import Request.
   artifactKey: Guid(eef780b792fd343ba9348cd751b707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PlayerScript.cs using Guid(eef780b792fd343ba9348cd751b707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d377f57c59bc19ce7a8c18e8525d92b') in 0.004341 seconds
   Import took 0.008810 seconds .
+=======
+/Users/parkjaehyung/GitHub/CIT_Projects/HJ
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65468
+Successfully changed project path to: /Users/parkjaehyung/GitHub/CIT_Projects/HJ
+/Users/parkjaehyung/GitHub/CIT_Projects/HJ
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 21.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/parkjaehyung/GitHub/CIT_Projects/HJ/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-13 14:29:54.675 Unity[10639:680174] (null) preferred device: Apple M1 (high power)
+2021-06-13 14:29:54.675 Unity[10639:680174] Metal devices available: 1
+2021-06-13 14:29:54.675 Unity[10639:680174] 0: Apple M1 (high power)
+2021-06-13 14:29:54.675 Unity[10639:680174] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56639
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001516 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 20.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.850 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.802 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 1.241875 ms (FindLiveObjects: 0.121875 ms CreateObjectMapping: 0.024042 ms MarkObjects: 1.037875 ms  DeleteObjects: 0.057500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Rifle.cs
+  artifactKey: Guid(4d6e06582f4614420998d8375d23feae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Rifle.cs using Guid(4d6e06582f4614420998d8375d23feae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c42d218250b1eca0c6642713039f73e') in 0.251256 seconds
+  Import took 0.253015 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.000542 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -710,3 +783,24 @@ Received Import Request.
 Start importing Assets/Animations/Player.controller using Guid(e42bb70d1d6494927bf77617a178a08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197486d4e719800c131f69bc20908da4') in 0.009259 seconds
   Import took 0.013401 seconds .
 
+=======
+Registered in 0.000298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.164625 ms (FindLiveObjects: 0.115750 ms CreateObjectMapping: 0.023041 ms MarkObjects: 1.009417 ms  DeleteObjects: 0.015792 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> Stashed changes
