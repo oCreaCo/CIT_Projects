@@ -2,89 +2,65 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rifle : MonoBehaviour
+public class Rifle : Gun
 {
-    [SerializeField] GameObject Bullet;
-    [SerializeField] GameObject RifleBody;
-    [SerializeField] GameObject Muzzle;
-
-    public bool isRifleOnHands;
-
-    [SerializeField] int bulletDamge;
-    [SerializeField] int bulletSpeed;
-    [SerializeField] double automodeShootDelay;
-    [SerializeField] double normalmodeShootDelay;
-
-    double automodeShotDelayTemp;
-    double normalmodeShotDelayTemp;
+    [SerializeField] GameObject TracerBul;
 
     [SerializeField] bool isAutomode;
 
-   
-    void Start()
+    [SerializeField] float automodeDelay;
+    [SerializeField] float tracerDelay;
+    float automodeDelayTmp;
+    float tracerDelayTmp;
+
+
+    public override void AddDelay()
     {
-        isRifleOnHands = false;
-        automodeShotDelayTemp = automodeShootDelay;
-        normalmodeShotDelayTemp = normalmodeShootDelay;
+        automodeDelayTmp += Time.deltaTime;
+        tracerDelayTmp += Time.deltaTime;
     }
 
-    void Update()
+    public override void AutomodeCheck()
     {
-        automodeShotDelayTemp += Time.deltaTime;
-        automodeShotDelayTemp += Time.deltaTime;
-
-        // 총 들기 || 총 집어넣기
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            if (isRifleOnHands)
-            {
-                // 현재무기 비활성화
-                RifleBody.SetActive(false);
-                isRifleOnHands = false;
-            }
-            else
-            {
-                RifleBody.SetActive(true);
-                isRifleOnHands = true;
-            }
-        }
-
-        // 단발-연발 변환
         if (Input.GetKeyDown(KeyCode.B) && isRifleOnHands)
         {
-            if (isAutomode)
+            isAutomode = !isAutomode;
+        }
+    }
+
+    public override void Fire()
+    {
+        if (isAutomode)
+        {
+            if (automodeDelayTmp > automodeDelay)
             {
-                isAutomode = false;
-            }
-            else
-            {
-                isAutomode = true;
+                if (tracerDelayTmp > tracerDelay)
+                {
+                    tracerDelayTmp = 0;
+                    GameObject tracerBul = Instantiate(TracerBul, Muzzle.transform.position, Muzzle.transform.rotation);
+                }
+                else
+                {
+                    automodeDelayTmp = 0;
+                    GameObject bul = Instantiate(Bullet, Muzzle.transform.position, Muzzle.transform.rotation);
+                }
             }
         }
-
-        // 총 발사
-        if ((Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Mouse0)) && isRifleOnHands)
+        else
         {
-            GameObject bul = Instantiate(Bullet);
-            bul.transform.SetParent(Muzzle.transform);
-
-            if (isAutomode)
+            if (normalDelayTmp > normalDelay)
             {
-                if (automodeShotDelayTemp > automodeShootDelay)
+                if (tracerDelayTmp > tracerDelay)
                 {
-                    automodeShotDelayTemp = 0;
-                    bul.transform.Translate(Vector3.forward * bulletSpeed * Time.deltaTime);
+                    tracerDelayTmp = 0;
+                    GameObject tracerBul = Instantiate(TracerBul, Muzzle.transform.position, Muzzle.transform.rotation);
+                }
+                else
+                {
+                    normalDelayTmp = 0;
+                    GameObject bul = Instantiate(Bullet, Muzzle.transform.position, Muzzle.transform.rotation);
                 }
             }
-            else
-            {
-                if (normalmodeShotDelayTemp > normalmodeShootDelay)
-                {
-                    normalmodeShotDelayTemp = 0;
-                    bul.transform.Translate(Vector3.forward * bulletSpeed * Time.deltaTime);
-                }
-            }
-
         }
     }
 }
