@@ -9,8 +9,11 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] float YRotationLimit;
     [SerializeField] int YRotationReverse;
     [SerializeField] Transform Head;
-    [SerializeField] Transform ArmPart;
+    //[SerializeField] Transform ArmPart;
     [SerializeField] Animator Anim;
+    [SerializeField] Transform Weapon;
+    protected bool Wielding = false;
+    float Cooling = 0;
     float xRot, yRot;
 
     void Update()
@@ -29,6 +32,20 @@ public class PlayerScript : MonoBehaviour
 
         transform.Translate(dir * MoveSpeed * Time.deltaTime);
         MouseRot();
+        if (Cooling > 0) Cooling -= Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.Alpha1) && Cooling <= 0)
+        {
+            if (Anim.GetBool("WeaponWielding") == false)
+            {
+                Anim.SetBool("WeaponWielding", true);
+                Cooling = 1.50f;
+            }
+            else
+            {
+                Anim.SetBool("WeaponWielding", false);
+                Cooling = 1.25f;
+            }
+        }
     }
 
     void MouseRot()
@@ -42,6 +59,23 @@ public class PlayerScript : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(transform.rotation.x, yRot, transform.rotation.z);
         Head.localRotation = Quaternion.Euler(xRot, 0, 0);
-        ArmPart.localRotation = Quaternion.Euler(xRot, 0, 0);
+        //ArmPart.localRotation = Quaternion.Euler(xRot, 0, 0);
+    }
+    public void WeaponSwitch()
+    {
+        if (Wielding == false)
+        {
+            Weapon.parent = transform.GetChild(5);
+            Wielding = true;
+            Weapon.localPosition = new Vector3(0, 0, 0);
+            Weapon.localRotation = Quaternion.Euler(0, 0, 0);
+        }
+        else
+        {
+            Weapon.parent = transform.GetChild(6);
+            Wielding = false;
+            Weapon.localPosition = new Vector3(0, 0, 0);
+            Weapon.localRotation = Quaternion.Euler(0, 0, 0);
+        }
     }
 }
