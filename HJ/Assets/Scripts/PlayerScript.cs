@@ -12,25 +12,30 @@ public class PlayerScript : MonoBehaviour
     //[SerializeField] Transform ArmPart;
     [SerializeField] Animator Anim;
     [SerializeField] Transform Weapon;
+    [SerializeField] Gun gun;
+    public bool canMove = true;
     protected bool Wielding = false;
     float Cooling = 0;
     float xRot, yRot;
 
     void Update()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float z = Input.GetAxisRaw("Vertical");
+        if(canMove){
+            float x = Input.GetAxisRaw("Horizontal");
+            float z = Input.GetAxisRaw("Vertical");
 
-        if (x == 1 || x == -1 || z == 1 || z == -1)
-        {
-            Anim.SetBool("Walking", true);
+            if (x == 1 || x == -1 || z == 1 || z == -1)
+            {
+                Anim.SetBool("Walking", true);
+            }
+            else Anim.SetBool("Walking", false);
+
+            Vector3 dir = new Vector3(x, 0, z);
+            dir.Normalize();
+
+            transform.Translate(dir * MoveSpeed * Time.deltaTime);
         }
-        else Anim.SetBool("Walking", false);
 
-        Vector3 dir = new Vector3(x, 0, z);
-        dir.Normalize();
-
-        transform.Translate(dir * MoveSpeed * Time.deltaTime);
         MouseRot();
         if (Cooling > 0) Cooling -= Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.Alpha1) && Cooling <= 0)
@@ -77,5 +82,9 @@ public class PlayerScript : MonoBehaviour
             Weapon.localPosition = new Vector3(0, 0, 0);
             Weapon.localRotation = Quaternion.Euler(0, 0, 0);
         }
+
+    }
+    public void WieldOrUnwield(){
+        gun.WieldOrUnwield();
     }
 }

@@ -6,8 +6,10 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] GameObject Bul;
 
-    [SerializeField] int bulletDamge;
-    [SerializeField] int bulletSpeed;
+    [SerializeField] int bulletDamage;
+    [SerializeField] float bulletSpeed;
+    [SerializeField] GameObject Self;
+    int Pierce = 0;
 
     void Start()
     {
@@ -22,11 +24,20 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("player hitted");
+        if(other.tag == "Untagged" || other.tag == "Obstacles"){
+            Destroy(Self);
         }
-        else if (other.tag == "Ground")
-            Debug.Log("Obj hitted");
+        else if(other.tag == "Enemy"){
+            //적의 HP 감소 코드
+            if(Pierce==0) Destroy(Self);
+            else Pierce--;
+        }
+    }
+    public void SetDamageNSpeed(int damage, float speed){
+        bulletDamage = damage;
+        bulletSpeed = speed;
+    }
+    public void SetPierce(int p){
+        Pierce = p;
     }
 }

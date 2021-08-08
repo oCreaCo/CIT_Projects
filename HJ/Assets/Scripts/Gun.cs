@@ -10,7 +10,7 @@ public class Gun : MonoBehaviour
 
     public bool isRifleOnHands;
 
-    [SerializeField] protected float normalDelay;
+    public float normalDelay;
     protected float normalDelayTmp;
 
 
@@ -24,22 +24,6 @@ public class Gun : MonoBehaviour
     {
         normalDelayTmp += Time.deltaTime;
         AddDelay();
-
-        // 총 들기 || 총 집어넣기
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            if (isRifleOnHands)
-            {
-                // 현재무기 비활성화
-                RifleBody.SetActive(false);
-                isRifleOnHands = false;
-            }
-            else
-            {
-                RifleBody.SetActive(true);
-                isRifleOnHands = true;
-            }
-        }
 
         // 단발-연발 변환
         AutomodeCheck();
@@ -65,5 +49,16 @@ public class Gun : MonoBehaviour
     public virtual void AddDelay()
     {
 
+    }
+    //총 들기, 집어넣기
+    public void WieldOrUnwield(){
+        if (isRifleOnHands)
+        {
+            isRifleOnHands = false;
+        }
+        else
+        {
+            isRifleOnHands = true;
+        }
     }
 }
