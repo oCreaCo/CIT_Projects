@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class EscMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] GameObject UI;
+    [SerializeField] GameObject Menu;
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+        }
     }
 }
