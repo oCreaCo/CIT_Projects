@@ -81,16 +81,36 @@ public class Rifle : Gun
     public void SnipeDamageSet(int damage){
         NormalDamage = damage;
     }
-    public void AssasultFirerateSet(int firerate){
+    public void AssasultFirerateSet(float firerate){
         automodeDelay = firerate;
     }
-    public void SnipeFirerateSet(int firerate){
+    public void SnipeFirerateSet(float firerate){
         normalDelay = firerate;
     }
-    public void AssasultSpeedSet(int speed){
+    public void AssasultSpeedSet(float speed){
         AutoSpeed = speed;
     }
     public void SnipePierceSet(int pierce){
         NormalPierce = pierce;
+    }
+    public void SetProperty(int WhatToEdit, float EditValue){
+        if(WhatToEdit == 0){
+            automodeDelay = EditValue;
+        }
+        else if(WhatToEdit == 1){
+            AutoDamage = (int)EditValue;
+        }
+        else if(WhatToEdit == 2){
+            AutoSpeed = EditValue;
+        }
+        else if(WhatToEdit == 3){
+            normalDelay = EditValue;
+        }
+        else if(WhatToEdit == 4){
+            NormalDamage = (int)EditValue;
+        }
+        else if(WhatToEdit == 5){
+            NormalPierce = (int)EditValue;
+        }
     }
 }

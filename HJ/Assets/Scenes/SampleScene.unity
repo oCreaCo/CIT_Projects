@@ -147,13 +147,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4517522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2116096211}
   - {fileID: 1056518452}
-  m_Father: {fileID: 1859641095}
-  m_RootOrder: 10
+  m_Father: {fileID: 695533205}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5746355
 GameObject:
@@ -348,13 +348,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55728461}
-  m_LocalRotation: {x: -0.37686956, y: 0.16042997, z: 0.066452265, w: 0.9098437}
-  m_LocalPosition: {x: 0.2, y: 0.2, z: -0.4}
+  m_LocalRotation: {x: -0.30070576, y: 0, z: 0, w: 0.953717}
+  m_LocalPosition: {x: 0.35, y: 0.2, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1859641095}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -45, y: 20, z: 0}
+  m_LocalEulerAnglesHint: {x: -35, y: 0, z: 0}
 --- !u!1 &91114583
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +532,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 107072423}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: SetUpgrade3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &107072423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,19 +2336,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.19999999
+      value: 0.19999997
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.19999997
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.19999997
+      value: 0.19999999
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2348,11 +2372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b5742c35cad19b945bc129c719875b2d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2690,7 +2714,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 427073668}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: SetUpgrade0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &427073668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2943,8 +2991,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1216406959}
   - {fileID: 891613548}
+  - {fileID: 1216406959}
   m_Father: {fileID: 1981757078}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2972,8 +3020,8 @@ MonoBehaviour:
   NormalTracerApperCount: 5
   AutoDamage: 10
   AutoSpeed: 5
-  NormalDamage: 80
-  NormalSpeed: 20
+  NormalDamage: 75
+  NormalSpeed: 60
   tracerBulDamageMultiplier: 3
   untilTracer: 0
   NormalPierce: 0
@@ -3873,6 +3921,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688740640}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &695533204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695533205}
+  m_Layer: 0
+  m_Name: RightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &695533205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695533204}
+  m_LocalRotation: {x: 0, y: 0, z: -0.043619405, w: 0.9990483}
+  m_LocalPosition: {x: 0.35, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4517523}
+  m_Father: {fileID: 1859641095}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4136,7 +4215,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 716462350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: SetUpgrade5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &716462350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4245,7 +4348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Firerate: 0.1(10 bullets/sec)'
+  m_Text: 'Firerate: 0.1'
 --- !u!222 &721000548
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4655,7 +4758,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 747984538}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: SetUpgrade2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &747984538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4990,7 +5117,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 498260015}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &908759176
 GameObject:
@@ -5463,13 +5590,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036534137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1348759914}
   - {fileID: 1240550350}
-  m_Father: {fileID: 1859641095}
-  m_RootOrder: 11
+  m_Father: {fileID: 1408474151}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1037727125
 GameObject:
@@ -6209,9 +6336,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1705734933}
-        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
-        m_MethodName: AssasultDamageUpgrade
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: SetUpgrade1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: Upgrade
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6829,7 +6968,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1224903294}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: SetUpgrade4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1705734935}
+        m_TargetAssemblyTypeName: UpgradeManagement, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1224903294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7382,6 +7545,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348759913}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1408474150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408474151}
+  m_Layer: 0
+  m_Name: LeftArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1408474151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408474150}
+  m_LocalRotation: {x: 0, y: 0, z: 0.043619405, w: 0.9990483}
+  m_LocalPosition: {x: -0.35, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1036534138}
+  m_Father: {fileID: 1859641095}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5}
 --- !u!1 &1434795458
 GameObject:
   m_ObjectHideFlags: 0
@@ -8153,7 +8347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'DPS: 100(DMG: 10)'
+  m_Text: 'Damage: 10'
 --- !u!222 &1651225346
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8383,7 +8577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1705734934}
-  - component: {fileID: 1705734933}
+  - component: {fileID: 1705734935}
   m_Layer: 0
   m_Name: UpgradeManager
   m_TagString: Untagged
@@ -8391,29 +8585,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1705734933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705734932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80854810b432d41fbbfada87509f6d68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Rifle: {fileID: 498260016}
-  Menu: {fileID: 2112924815}
-  AssasultDamageText: {fileID: 1651225345}
-  AssasultDamageButtonText: {fileID: 129209036}
-  AssasultDamagePerLevel: 
-  AssasultDamageUpgradePricePerLevel: 
-  AssasultFirerateText: {fileID: 0}
-  AssasultFirerateButtonText: {fileID: 0}
-  AssasultFireratePerLevel: 
-  AssasultFirerateUpgradePricePerLevel: 
-  Money: 10000000
 --- !u!4 &1705734934
 Transform:
   m_ObjectHideFlags: 0
@@ -8428,6 +8599,267 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1705734935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705734932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16df4a2a99ebc4255af936c6523913ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rifle: {fileID: 498260016}
+  Menu: {fileID: 2112924815}
+  Property:
+  - WhatIsThis: Firerate
+    ButtonText: {fileID: 1191357633}
+    DisplayText: {fileID: 721000547}
+    CostPerLevel: f4010000e8030000d0070000a00f0000401f0000204e0000
+    LevelProperties:
+    - StatPerLevel: 0.1
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 0
+      StatIndicator: []
+    - StatPerLevel: 0.085
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278254335
+      StatIndicator:
+      - {fileID: 739498029}
+    - StatPerLevel: 0.07
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278241535
+      StatIndicator:
+      - {fileID: 1471817053}
+    - StatPerLevel: 0.055
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278228735
+      StatIndicator:
+      - {fileID: 226324393}
+    - StatPerLevel: 0.04
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278215935
+      StatIndicator:
+      - {fileID: 239341965}
+    - StatPerLevel: 0.025
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278190335
+      StatIndicator:
+      - {fileID: 1052660743}
+    - StatPerLevel: 0.018
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294901866
+      StatIndicator:
+      - {fileID: 1052660743}
+      - {fileID: 239341965}
+      - {fileID: 226324393}
+      - {fileID: 1471817053}
+      - {fileID: 739498029}
+  - WhatIsThis: Damage
+    ButtonText: {fileID: 129209036}
+    DisplayText: {fileID: 1651225345}
+    CostPerLevel: f4010000ee020000e8030000e2040000dc050000d0070000c4090000b80b0000ac0d0000a00f00008813000070170000581b0000401f000028230000f82a0000c8320000983a000068420000384a0000409c0000
+    LevelProperties:
+    - StatPerLevel: 10
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 0
+      StatIndicator: []
+    - StatPerLevel: 12
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278254335
+      StatIndicator:
+      - {fileID: 476409138}
+    - StatPerLevel: 14
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278241535
+      StatIndicator:
+      - {fileID: 1895231618}
+    - StatPerLevel: 16
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278228735
+      StatIndicator:
+      - {fileID: 1519905572}
+    - StatPerLevel: 18
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278215935
+      StatIndicator:
+      - {fileID: 2014079477}
+    - StatPerLevel: 20
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278203135
+      StatIndicator:
+      - {fileID: 272374934}
+    - StatPerLevel: 24
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294965760
+      StatIndicator:
+      - {fileID: 476409138}
+    - StatPerLevel: 28
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294952960
+      StatIndicator:
+      - {fileID: 1895231618}
+    - StatPerLevel: 32
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294940160
+      StatIndicator:
+      - {fileID: 1519905572}
+    - StatPerLevel: 36
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294927360
+      StatIndicator:
+      - {fileID: 2014079477}
+    - StatPerLevel: 40
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294914560
+      StatIndicator:
+      - {fileID: 272374934}
+    - StatPerLevel: 48
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294639610
+      StatIndicator:
+      - {fileID: 476409138}
+    - StatPerLevel: 56
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4291362760
+      StatIndicator:
+      - {fileID: 1895231618}
+    - StatPerLevel: 64
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4288085910
+      StatIndicator:
+      - {fileID: 1519905572}
+    - StatPerLevel: 72
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4284809060
+      StatIndicator:
+      - {fileID: 2014079477}
+    - StatPerLevel: 80
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4281532210
+      StatIndicator:
+      - {fileID: 272374934}
+    - StatPerLevel: 96
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4291361535
+      StatIndicator:
+      - {fileID: 476409138}
+    - StatPerLevel: 112
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4291348735
+      StatIndicator:
+      - {fileID: 1895231618}
+    - StatPerLevel: 128
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4291335935
+      StatIndicator:
+      - {fileID: 1519905572}
+    - StatPerLevel: 144
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4291323135
+      StatIndicator:
+      - {fileID: 2014079477}
+    - StatPerLevel: 160
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4291310335
+      StatIndicator:
+      - {fileID: 272374934}
+    - StatPerLevel: 320
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4294902015
+      StatIndicator:
+      - {fileID: 476409138}
+      - {fileID: 1895231618}
+      - {fileID: 1519905572}
+      - {fileID: 2014079477}
+      - {fileID: 272374934}
+  - WhatIsThis: Speed
+    ButtonText: {fileID: 1332228429}
+    DisplayText: {fileID: 1538823328}
+    CostPerLevel: f4010000e8030000dc050000d0070000c4090000
+    LevelProperties:
+    - StatPerLevel: 5
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 0
+      StatIndicator: []
+    - StatPerLevel: 10
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278254335
+      StatIndicator:
+      - {fileID: 1749102887}
+    - StatPerLevel: 15
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278241535
+      StatIndicator:
+      - {fileID: 38506079}
+    - StatPerLevel: 20
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278228735
+      StatIndicator:
+      - {fileID: 985750824}
+    - StatPerLevel: 25
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278215935
+      StatIndicator:
+      - {fileID: 1042050115}
+    - StatPerLevel: 30
+      StatIndicatorColor:
+        serializedVersion: 2
+        rgba: 4278203135
+      StatIndicator:
+      - {fileID: 289949357}
+  - WhatIsThis: Firerate
+    ButtonText: {fileID: 727758829}
+    DisplayText: {fileID: 240732316}
+    CostPerLevel: f4010000e8030000d0070000a00f0000401f0000
+    LevelProperties: []
+  - WhatIsThis: Damage
+    ButtonText: {fileID: 1348195588}
+    DisplayText: {fileID: 1578015944}
+    CostPerLevel: f4010000ee020000e8030000e2040000dc050000
+    LevelProperties: []
+  - WhatIsThis: Pierce
+    ButtonText: {fileID: 2008946122}
+    DisplayText: {fileID: 239518246}
+    CostPerLevel: ac0d0000581b000010270000
+    LevelProperties: []
+  Money: 10000000
 --- !u!1 &1749102885
 GameObject:
   m_ObjectHideFlags: 0
@@ -9112,8 +9544,8 @@ Transform:
   - {fileID: 1754106051}
   - {fileID: 1848549159}
   - {fileID: 974970711}
-  - {fileID: 4517523}
-  - {fileID: 1036534138}
+  - {fileID: 695533205}
+  - {fileID: 1408474151}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10236,7 +10668,7 @@ MonoBehaviour:
   MoneyTexts:
   - {fileID: 1434795459}
   - {fileID: 341913430}
-  Manager: {fileID: 1705734933}
+  Manager: {fileID: 1705734935}
 --- !u!1 &2116096210
 GameObject:
   m_ObjectHideFlags: 0

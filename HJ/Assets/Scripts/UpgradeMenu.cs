@@ -14,7 +14,7 @@ public class UpgradeMenu : MonoBehaviour
     [SerializeField] GameObject Menu2Buttons;
     [SerializeField] GameObject Menu3Buttons;
     [SerializeField] Text[] MoneyTexts;
-    [SerializeField] UpgradeManager Manager;
+    [SerializeField] UpgradeManagement Manager;
     IEnumerator ApperingCoroutine;
     public void Apper(bool Disappering){
         if(Disappering){
