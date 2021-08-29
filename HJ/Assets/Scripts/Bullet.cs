@@ -8,7 +8,8 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] int bulletDamage;
     [SerializeField] float bulletSpeed;
-    [SerializeField] GameObject Self;
+    [SerializeField] GameObject Enemy;
+    [SerializeField] GameObject Player;
     int Pierce = 0;
 
     void Start()
@@ -24,16 +25,20 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Untagged" || other.tag == "Obstacles"){
-            Destroy(Self);
+        if(other.tag == "Untagged" || other.tag == "Obstacles")
+        {
+            Destroy(gameObject);
         }
-        else if(other.tag == "Enemy"){
-            //적의 HP 감소 코드
-            if(Pierce==0) Destroy(Self);
-            else Pierce--;
+        else if(other.tag == "Enemy")
+        {
+            Enemy.GetComponent<Enemy>().EnemyGetDamage(bulletDamage);
+        }
+        else if(other.tag == "Player")
+        {
+            Player.GetComponent<PlayerScript>().GetDamage(bulletDamage);
         }
     }
-    public void SetDamageNSpeed(int damage, float speed){
+    public void SetBulletDetails(int damage, float speed){
         bulletDamage = damage;
         bulletSpeed = speed;
     }

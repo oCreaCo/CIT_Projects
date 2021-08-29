@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 324511657544397771}
   - component: {fileID: 324511657544397768}
   - component: {fileID: 324511657544397769}
-  - component: {fileID: 324511657544397770}
   m_Layer: 0
-  m_Name: Emeny
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,27 +112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
---- !u!114 &324511657544397770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324511657544397767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af154b59d813a4dc991a3eff63595f02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 1000
-  whatTohit:
-    serializedVersion: 2
-    m_Bits: 64
-  FireDelay: 0.5
-  FireDelayTmp: 0
-  Bullet: {fileID: 5330547778882936138, guid: 326b4a47bca4d41e396335a6a9ebc9cb, type: 3}
-  Muzzle: {fileID: 324511658437519970}
-  firePoint: {fileID: 324511658437519973}
 --- !u!1 &324511658072181205
 GameObject:
   m_ObjectHideFlags: 0
