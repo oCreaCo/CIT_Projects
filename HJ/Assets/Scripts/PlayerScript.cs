@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] int YRotationReverse;
     [SerializeField] Transform Head;
     //[SerializeField] Transform ArmPart;
-    [SerializeField] Animator Anim;
+    public Animator Anim;
     [SerializeField] Transform Weapon;
     [SerializeField] Gun gun;
     public bool canMove = true;
@@ -18,9 +18,17 @@ public class PlayerScript : MonoBehaviour
     float Cooling = 0;
     float xRot, yRot;
 
+    [SerializeField] int playerOriHp;
+    [SerializeField] int playerHp;
+
+    void Start()
+    {
+        playerHp = playerOriHp;
+    }
+
     void Update()
     {
-        if(canMove){
+        if (canMove) {
             float x = Input.GetAxisRaw("Horizontal");
             float z = Input.GetAxisRaw("Vertical");
 
@@ -84,7 +92,26 @@ public class PlayerScript : MonoBehaviour
         }
 
     }
-    public void WieldOrUnwield(){
+
+    public void WieldOrUnwield() {
         gun.WieldOrUnwield();
+    }
+
+    public void GetDamage(int dmg)
+    {
+        if (playerHp - dmg <= 0)
+        {
+            playerHp = 0;
+            Debug.Log("Player Dead!!");
+            return;
+        }
+
+        playerHp -= dmg;
+    }
+
+    public void ReloadGun()
+    {
+        gun.bulletFireCount = 0;
+        gun.BulletInfoUI();
     }
 }
