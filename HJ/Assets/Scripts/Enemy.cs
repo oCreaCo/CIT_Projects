@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -17,9 +18,13 @@ public class Enemy : MonoBehaviour
     [SerializeField] Transform firePoint;
 
     [SerializeField] int EnemyOriHp;
-    int EnemyHp;
+    [SerializeField] int EnemyHp;
     [SerializeField] int EnemyDamage;
     [SerializeField] int EnemyBulletSpeed;
+
+    [SerializeField] PlayerScript Player;
+    public Image EnemyImage;
+    public string EnemyName;
 
     void Start()
     {
@@ -38,7 +43,6 @@ public class Enemy : MonoBehaviour
                 //Debug.Log(hit.transform);
                 FireDelayTmp = 0;
                 GameObject bul = Instantiate(Bullet, Muzzle.transform.position, Muzzle.transform.rotation);
-                bul.GetComponent<Bullet>().SetBulletDetails(EnemyDamage, EnemyBulletSpeed);
             }
 
         }
@@ -46,7 +50,14 @@ public class Enemy : MonoBehaviour
 
     public void EnemyGetDamage(int dmg)
     {
-        if (EnemyHp - dmg <= 0)
+        EnemyHp -= dmg;
+        if(Player.DetectedEnemies.Contains(transform) == false)
+        {
+            Player.DetectedEnemies.Insert(0, transform);
+
+        }
+
+        if (EnemyHp <= 0)
         {
             EnemyHp = 0;
             Destroy(gameObject);

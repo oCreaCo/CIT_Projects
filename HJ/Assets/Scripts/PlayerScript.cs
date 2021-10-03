@@ -22,6 +22,9 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] int playerOriHp;
     [SerializeField] int playerHp;
 
+    public List<Transform> DetectedEnemies = new List<Transform>();
+    public EnemyHealthIndicator Indicator;
+
     void Start()
     {
         playerHp = playerOriHp;
@@ -119,7 +122,18 @@ public class PlayerScript : MonoBehaviour
         gun.Reload();
         gun.BulletInfoUI();
     }
+<<<<<<< Updated upstream
     public void DisableOrEnableFire(int e){
         gun.DisableOrEnableFire(e == 0 ? false : true);
+=======
+    public void UpdateEnemyHPList()
+    {
+        
+    }
+    IEnumerator RemoveOneIndicator()
+    {
+        yield return new WaitForSeconds(5.0f);
+        Indicator.RemoveIndicator();
+>>>>>>> Stashed changes
     }
 }
