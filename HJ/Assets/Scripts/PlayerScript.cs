@@ -122,10 +122,6 @@ public class PlayerScript : MonoBehaviour
         gun.Reload();
         gun.BulletInfoUI();
     }
-<<<<<<< Updated upstream
-    public void DisableOrEnableFire(int e){
-        gun.DisableOrEnableFire(e == 0 ? false : true);
-=======
     public void UpdateEnemyHPList()
     {
         
@@ -134,6 +130,5 @@ public class PlayerScript : MonoBehaviour
     {
         yield return new WaitForSeconds(5.0f);
         Indicator.RemoveIndicator();
->>>>>>> Stashed changes
     }
 }
