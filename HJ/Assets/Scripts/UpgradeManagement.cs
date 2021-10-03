@@ -30,12 +30,25 @@ public class UpgradeManagement : MonoBehaviour
     public void SetUpgrade5(){
         WhatToUpgrade = 5;
     }
+    public void SetUpgrade6(){
+        WhatToUpgrade = 6;
+    }
+    public void SetUpgrade7(){
+        WhatToUpgrade = 7;
+    }
 
     public void Upgrade(){
         if(Property[WhatToUpgrade].CostPerLevel[Lvl[WhatToUpgrade]]<=Money){
             Money -= Property[WhatToUpgrade].CostPerLevel[Lvl[WhatToUpgrade]];
             Lvl[WhatToUpgrade]++;
-            Rifle.SetProperty(WhatToUpgrade, Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatPerLevel);
+            if(Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].SpecialUpgradeManagement.SpecialUpgrade == false){
+                Rifle.SetProperty(WhatToUpgrade, Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatPerLevel);
+                Property[WhatToUpgrade].DisplayText.text = Property[WhatToUpgrade].WhatIsThis + ": " + Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatPerLevel;
+            }
+            else{
+                Rifle.SetProperty(Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].SpecialUpgradeManagement.SpecialUpgradeTargetCode, Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatPerLevel);
+                Property[WhatToUpgrade].DisplayText.text = Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].SpecialUpgradeManagement.SpecialStatContext;
+            }
             for(int i = 0 ; i < Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatIndicator.Length; i++){
                 Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatIndicator[i].color = Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatIndicatorColor;
             }
@@ -45,15 +58,21 @@ public class UpgradeManagement : MonoBehaviour
             else{
                 Property[WhatToUpgrade].ButtonText.text = "Maxed";
             }
-            Property[WhatToUpgrade].DisplayText.text = Property[WhatToUpgrade].WhatIsThis + ": " + Property[WhatToUpgrade].LevelProperties[Lvl[WhatToUpgrade]].StatPerLevel;
+            
         }
         Menu.MoneyTextUpdate();
     }
+}
+[System.Serializable] class NewUpgrade{
+    public bool SpecialUpgrade = false;
+    public int SpecialUpgradeTargetCode;
+    public string SpecialStatContext;
 }
 [System.Serializable] class Stat{
     public float StatPerLevel;
     public Color32 StatIndicatorColor;
     public Image[] StatIndicator;
+    public NewUpgrade SpecialUpgradeManagement;
 }
 [System.Serializable] class Properties{
     public string WhatIsThis;

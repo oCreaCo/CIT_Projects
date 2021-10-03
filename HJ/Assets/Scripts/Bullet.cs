@@ -8,34 +8,43 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] int bulletDamage;
     [SerializeField] float bulletSpeed;
-    [SerializeField] GameObject Enemy;
-    [SerializeField] GameObject Player;
+    [SerializeField] bool Beam = false;
+    [SerializeField] Material[] BeamMaterial;
     int Pierce = 0;
 
     void Start()
     {
-        
+        if(Beam) StartCoroutine(BeamDisapper());
     }
 
 
     void Update()
     {
-        transform.Translate(Vector3.forward * bulletSpeed * Time.deltaTime);
+        if(Beam==false) transform.Translate(Vector3.forward * bulletSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Untagged" || other.tag == "Obstacles")
-        {
-            Destroy(gameObject);
+        if(Beam == false){
+            if(other.tag == "Untagged" || other.tag == "Obstacles")
+            {
+                Destroy(gameObject);
+            }
+            else if(other.tag == "Enemy")
+            {
+                other.transform.GetComponent<Enemy>().EnemyGetDamage(bulletDamage);
+                if(Pierce == 0) Destroy(gameObject);
+                Pierce--;
+            }
+            else if(other.tag == "Player")
+            {
+                other.transform.GetComponent<PlayerScript>().GetDamage(bulletDamage);
+            }
         }
-        else if(other.tag == "Enemy")
-        {
-            Enemy.GetComponent<Enemy>().EnemyGetDamage(bulletDamage);
-        }
-        else if(other.tag == "Player")
-        {
-            Player.GetComponent<PlayerScript>().GetDamage(bulletDamage);
+        else{
+            if(other.tag == "Enemy"){
+                other.transform.GetComponent<Enemy>().EnemyGetDamage(bulletDamage);           
+            }
         }
     }
     public void SetBulletDetails(int damage, float speed){
@@ -44,5 +53,12 @@ public class Bullet : MonoBehaviour
     }
     public void SetPierce(int p){
         Pierce = p;
+    }
+    IEnumerator BeamDisapper(){
+        for(int i = 0 ; i < BeamMaterial.Length ; i++){
+            Bul.GetComponent<MeshRenderer>().material = BeamMaterial[i];
+            yield return new WaitForSeconds(0.2f);
+        }
+        Destroy(gameObject);
     }
 }

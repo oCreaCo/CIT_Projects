@@ -14,6 +14,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] Transform Weapon;
     [SerializeField] Gun gun;
     public bool canMove = true;
+    public bool canSwitchWeapon = true;
     protected bool Wielding = false;
     float Cooling = 0;
     float xRot, yRot;
@@ -46,7 +47,7 @@ public class PlayerScript : MonoBehaviour
 
         MouseRot();
         if (Cooling > 0) Cooling -= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.Alpha1) && Cooling <= 0)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && Cooling <= 0 && canSwitchWeapon)
         {
             if (Anim.GetBool("WeaponWielding") == false)
             {
@@ -58,6 +59,10 @@ public class PlayerScript : MonoBehaviour
                 Anim.SetBool("WeaponWielding", false);
                 Cooling = 1.25f;
             }
+        }
+        if(Input.GetButtonDown("Reload")){
+            if(gun.isAutomode==true && gun.bulletFireCount != 0) Anim.SetTrigger("Reload");
+            if(gun.isAutomode==false && gun.SnipeFireCount != 0) Anim.SetTrigger("Reload");
         }
     }
 
@@ -102,7 +107,7 @@ public class PlayerScript : MonoBehaviour
         if (playerHp - dmg <= 0)
         {
             playerHp = 0;
-            Debug.Log("Player Dead!!");
+            Debug.Log("Player Died!!");
             return;
         }
 
@@ -111,7 +116,10 @@ public class PlayerScript : MonoBehaviour
 
     public void ReloadGun()
     {
-        gun.bulletFireCount = 0;
+        gun.Reload();
         gun.BulletInfoUI();
+    }
+    public void DisableOrEnableFire(int e){
+        gun.DisableOrEnableFire(e == 0 ? false : true);
     }
 }

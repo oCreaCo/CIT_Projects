@@ -11,16 +11,20 @@ public class Gun : MonoBehaviour
     [SerializeField] protected GameObject Muzzle;
 
     public bool isRifleOnHands;
+    public bool Disabled = false;
 
     public float normalDelay;
     protected float normalDelayTmp;
 
     public int magazineSize;
     public int bulletFireCount;
+    public int SnipeMagazineSize;
+    public int SnipeFireCount;
+
 
     [SerializeField] Animator anim;
-
-    [SerializeField] GameObject BulletInfo;
+    public bool isAutomode;
+    public GameObject BulletInfo;
     public Text BulletInfoText;
 
     protected void Start()
@@ -39,16 +43,9 @@ public class Gun : MonoBehaviour
         AutomodeCheck();
  
         // 총 발사
-        if ((Input.GetKey(KeyCode.Mouse0)) && isRifleOnHands && bulletFireCount < magazineSize)
+        if ((Input.GetKey(KeyCode.Mouse0)) && isRifleOnHands && Disabled==false)
         {   
             Fire();
-
-            if (bulletFireCount >= magazineSize)
-            {
-                anim.SetTrigger("ReloadGun");
-
-            }
-
         }
        
     }
@@ -66,6 +63,10 @@ public class Gun : MonoBehaviour
     {
 
     }
+    
+    public virtual void Reload(){
+
+    }
 
     //총 들기, 집어넣기
     public void WieldOrUnwield(){
@@ -80,10 +81,13 @@ public class Gun : MonoBehaviour
             isRifleOnHands = true;
         }
     }
+    public void DisableOrEnableFire(bool e){
+        isRifleOnHands = e;
+        if(e==true) Debug.Log("true");
+    }
 
-    public void BulletInfoUI()
+    public virtual void BulletInfoUI()
     {
-        BulletInfoText.text = (magazineSize - bulletFireCount)
-            .ToString() + "/" + magazineSize.ToString();
+
     }
 }

@@ -15,6 +15,8 @@ public class UpgradeMenu : MonoBehaviour
     [SerializeField] GameObject Menu3Buttons;
     [SerializeField] Text[] MoneyTexts;
     [SerializeField] UpgradeManagement Manager;
+    [SerializeField] Gun gun;
+    [SerializeField] PlayerScript Player;
     IEnumerator ApperingCoroutine;
     public void Apper(bool Disappering){
         if(Disappering){
@@ -47,7 +49,12 @@ public class UpgradeMenu : MonoBehaviour
             Menu2Buttons.SetActive(false);
             Menu3Buttons.SetActive(false);
         }
-        else a = 0.02f;
+        else{ 
+            a = 0.02f;
+            gun.Disabled = true;
+            gun.BulletInfo.SetActive(false);
+            Player.canSwitchWeapon = false;
+        }
         for(int i = 0 ; i < 50 ; i++){
             float r = Menu1Panel1.color.r;
             float g = Menu1Panel1.color.g;
@@ -70,6 +77,11 @@ public class UpgradeMenu : MonoBehaviour
         else{
             Menu1Panel1.GetComponent<RectTransform>().localPosition = new Vector3(-50, 0, 0);
             Menu1Panel2.GetComponent<RectTransform>().localPosition = new Vector3(50, 0, 0);
+            gun.Disabled = false;
+            if(gun.isRifleOnHands == true){
+                gun.BulletInfo.SetActive(true);
+            }
+            Player.canSwitchWeapon = true;
         }
     }
     IEnumerator Menu2(bool Returning){

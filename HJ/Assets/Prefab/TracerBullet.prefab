@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5107315345608236783}
   - component: {fileID: 5107315345608236782}
   - component: {fileID: 5107315345608236777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 5107315346012504853}
   - component: {fileID: 8712403017509653605}
   - component: {fileID: 7970700213227338438}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TracerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,4 +158,5 @@ MonoBehaviour:
   Bul: {fileID: 5107315345608236779}
   bulletDamage: 0
   bulletSpeed: 10
-  Self: {fileID: 5107315346012504852}
+  Beam: 0
+  BeamMaterial: []
