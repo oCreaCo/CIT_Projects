@@ -62,7 +62,7 @@ public class PlayerScript : MonoBehaviour
                 Cooling = 1.25f;
             }
         }
-        if(Input.GetButtonDown("Reload")){
+        if(Input.GetButtonDown("Reload") && gun.Disabled == false){
             if(gun.isAutomode==true && gun.bulletFireCount != 0) Anim.SetTrigger("Reload");
             if(gun.isAutomode==false && gun.SnipeFireCount != 0) Anim.SetTrigger("Reload");
         }

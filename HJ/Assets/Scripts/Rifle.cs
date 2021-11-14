@@ -42,7 +42,7 @@ public class Rifle : Gun
 
     public override void AutomodeCheck()
     {
-        if (Input.GetKeyDown(KeyCode.B) && isRifleOnHands)
+        if (Input.GetKeyDown(KeyCode.B) && isRifleOnHands && Disabled == false)
         {
             isAutomode = !isAutomode;
             BulletInfoUI();
