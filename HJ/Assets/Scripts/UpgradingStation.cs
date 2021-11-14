@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 public class UpgradingStation : MonoBehaviour
 {
+    public static UpgradingStation upgradingStation;
+
     [SerializeField] GameObject menuOpenUI;
     [SerializeField] PlayerScript Player;
     [SerializeField] UpgradeMenu UpgradePanel;
-    bool open = false;
+    public bool open = false;
     bool canOpen = false;
 
     void Update(){
+        UpgradingStation.upgradingStation = this;
+
         if(canOpen && Input.GetButtonDown("OpenTab") && open == false){
             open = true;
             Player.canMove = false;
