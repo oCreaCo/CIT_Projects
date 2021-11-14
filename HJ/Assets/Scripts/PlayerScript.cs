@@ -22,9 +22,6 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] int playerOriHp;
     [SerializeField] int playerHp;
 
-    public List<Transform> DetectedEnemies = new List<Transform>();
-    public EnemyHealthIndicator Indicator;
-
     void Start()
     {
         playerHp = playerOriHp;
@@ -86,14 +83,14 @@ public class PlayerScript : MonoBehaviour
     {
         if (Wielding == false)
         {
-            Weapon.parent = transform.GetChild(5);
+            Weapon.parent = transform.GetChild(9).transform.GetChild(2);
             Wielding = true;
             Weapon.localPosition = new Vector3(0, 0, 0);
             Weapon.localRotation = Quaternion.Euler(0, 0, 0);
         }
         else
         {
-            Weapon.parent = transform.GetChild(6);
+            Weapon.parent = transform.GetChild(5);
             Wielding = false;
             Weapon.localPosition = new Vector3(0, 0, 0);
             Weapon.localRotation = Quaternion.Euler(0, 0, 0);
@@ -122,13 +119,8 @@ public class PlayerScript : MonoBehaviour
         gun.Reload();
         gun.BulletInfoUI();
     }
-    public void UpdateEnemyHPList()
-    {
-        
-    }
-    IEnumerator RemoveOneIndicator()
-    {
-        yield return new WaitForSeconds(5.0f);
-        Indicator.RemoveIndicator();
+    public void DisableOrEnableFire(){
+        if(gun.Disabled) gun.Disabled = false;
+        else gun.Disabled = true;
     }
 }

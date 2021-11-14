@@ -5,28 +5,29 @@ using UnityEngine.UI;
 
 public class EnemyHealthIndicator : MonoBehaviour
 {
-    [SerializeField] GameObject EnemyHealthIndicatorPrefab;
-    List<GameObject> Indicators = new List<GameObject>();
+    public static EnemyHealthIndicator EHI;
 
-
-    public void AddIndicator(int ImageCode, Text EnemyName)
-    {
-        GameObject a = Instantiate(EnemyHealthIndicatorPrefab, new Vector3(0, 0, 0), Quaternion.Euler(0, 0, 0));
-        a.transform.SetParent(transform);
-        a.GetComponent<RectTransform>().localPosition = new Vector3(400, 350-(Indicators.Count*50), 0);
-        a.transform.GetChild(2).GetChild(ImageCode).gameObject.SetActive(true);
-        Indicators.Insert(0, a);
+    void Awake(){
+        EnemyHealthIndicator.EHI = this;
     }
 
-    public void RemoveIndicator()
-    {
-        Destroy(Indicators[Indicators.Count-1]);
-        if (Indicators.Count >= 2)
-        {
-            for(int i = 0; i < Indicators.Count-2; i++)
-            {
-                Indicators[i].GetComponent<RectTransform>().localPosition = new Vector3(400, Indicators[i].GetComponent<RectTransform>().localPosition.y+50, 0);
-            }
-        }
-    }
+    public List<Indicator> Indicators = new List<Indicator>();
+
+    
+   public void NewIndicator(){
+       Indicators[0].IndicatorObject.GetComponent<RectTransform>().localPosition = new Vector3(220, 220-(Indicators.Count*50), 0);
+       Indicators[0].IndicatorObject.GetComponent<Transform>().GetChild(2).GetChild(Indicators[0].Enemy.GetComponent<Enemy>().EnemyImageCode).gameObject.SetActive(true);
+       Indicators[0].IndicatorObject.GetComponent<Transform>().GetChild(1).GetComponent<Text>().text = Indicators[0].Enemy.GetComponent<Enemy>().EnemyName;
+   }
+   public void RemoveIndicator(int which){
+       for(int i = which ; i >= 0 ; i--){
+           Indicators[i].IndicatorObject.GetComponent<RectTransform>().localPosition = new Vector3(220, Indicators[i].IndicatorObject.GetComponent<RectTransform>().localPosition.y+50, 0);
+       }
+       Indicators.RemoveAt(which);
+   }
+}
+[System.Serializable] 
+public class Indicator{
+    public Transform Enemy;
+    public GameObject IndicatorObject; 
 }

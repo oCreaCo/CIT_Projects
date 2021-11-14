@@ -62,14 +62,14 @@ public class Rifle : Gun
                     {
                         untilTracer = AutoTracerApperCount;
                         GameObject tracerBul = Instantiate(TracerBul, Muzzle.transform.position, Muzzle.transform.rotation);
-                        tracerBul.transform.GetComponent<Bullet>().SetBulletDetails(AutoDamage*tracerBulDamageMultiplier, AutoSpeed);
+                        tracerBul.transform.GetComponent<Bullet>().SetBulletDetails(AutoDamage*tracerBulDamageMultiplier, AutoSpeed, "Enemy");
                         bulletFireCount++;
                         BulletInfoUI();
                     }
                     else
                     {
                         GameObject bul = Instantiate(Bullet, Muzzle.transform.position, Muzzle.transform.rotation);
-                        bul.transform.GetComponent<Bullet>().SetBulletDetails(AutoDamage, AutoSpeed);
+                        bul.transform.GetComponent<Bullet>().SetBulletDetails(AutoDamage, AutoSpeed, "Enemy");
                         untilTracer--;
                         bulletFireCount++;
                         BulletInfoUI();
@@ -86,7 +86,7 @@ public class Rifle : Gun
                     if (isBulletBeam)
                     {
                         GameObject bul = Instantiate(BeamBullet, Muzzle.transform.position, Muzzle.transform.rotation);
-                        bul.transform.GetComponent<Bullet>().SetBulletDetails(AutoDamage, AutoSpeed);
+                        bul.transform.GetComponent<Bullet>().SetBulletDetails(NormalDamage, 0, "Enemy");
                         SnipeFireCount++;
                         BulletInfoUI();
                     }
@@ -94,7 +94,7 @@ public class Rifle : Gun
                         if(untilTracer <= 0){
                             untilTracer = NormalTracerApperCount;
                             GameObject tracerBul = Instantiate(TracerBul, Muzzle.transform.position, Muzzle.transform.rotation);
-                            tracerBul.transform.GetComponent<Bullet>().SetBulletDetails(NormalDamage*tracerBulDamageMultiplier, NormalSpeed);
+                            tracerBul.transform.GetComponent<Bullet>().SetBulletDetails(NormalDamage*tracerBulDamageMultiplier, NormalSpeed, "Enemy");
                             tracerBul.transform.GetComponent<Bullet>().SetPierce(NormalPierce);
                             SnipeFireCount++;
                             BulletInfoUI();
@@ -102,7 +102,7 @@ public class Rifle : Gun
                         else
                         {
                             GameObject bul = Instantiate(Bullet, Muzzle.transform.position, Muzzle.transform.rotation);
-                            bul.transform.GetComponent<Bullet>().SetBulletDetails(NormalDamage, NormalSpeed);
+                            bul.transform.GetComponent<Bullet>().SetBulletDetails(NormalDamage, NormalSpeed, "Enemy");
                             bul.transform.GetComponent<Bullet>().SetPierce(NormalPierce);
                             untilTracer--;
                             SnipeFireCount++;

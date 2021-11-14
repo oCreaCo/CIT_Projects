@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5780939960355584911}
   - component: {fileID: 5052975976172250700}
+  - component: {fileID: 8488093961450081143}
   m_Layer: 7
   m_Name: BeamBullet
   m_TagString: Untagged
@@ -54,6 +55,19 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 05765fb5cd5ba49c0b951ac941c6f25a, type: 2}
   - {fileID: 2100000, guid: 16b9ec01747ec4196bca1ede9aa551fe, type: 2}
   - {fileID: 2100000, guid: f81d7192aa56849568bea7e73de67b98, type: 2}
+--- !u!65 &8488093961450081143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806340695911965484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.2, z: 199}
+  m_Center: {x: 0, y: 0, z: 100}
 --- !u!1 &7411918776040023308
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +158,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7411918776040023308}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
