@@ -67,12 +67,12 @@ public class UIManager : MonoBehaviour
             if (float.TryParse(mouseSensitiveInput.GetComponent<InputField>().textComponent.text, out mouseSensitive))
             {
                 PlayerScript.playerScript.CameraSensivity = mouseSensitive;
-                mouseSensitiveInput.transform.FindChild("Title").GetComponent<Text>().color = Color.white;
+                mouseSensitiveInput.transform.Find("Title").GetComponent<Text>().color = Color.white;
             }
             else
             {
                 //mouseSensitiveInput.GetComponent<InputField>().text = "10.0";
-                mouseSensitiveInput.transform.FindChild("Title").GetComponent<Text>().color = Color.red;
+                mouseSensitiveInput.transform.Find("Title").GetComponent<Text>().color = Color.red;
             }
         }
     }

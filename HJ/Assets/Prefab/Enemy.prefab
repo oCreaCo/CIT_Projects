@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324511657544397767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.983526, y: 2.53, z: -38.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 324511659236194894}
@@ -125,10 +125,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.56455207
-  m_Height: 2.5751765
+  m_Radius: 0.5
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0.037269115, y: 0.78758824, z: 0.0116117}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &7091075092461617644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -157,7 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05aafd9052f34a829811c2618ff6e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nickname: 01
   range: 0
   whatTohit:
     serializedVersion: 2
@@ -171,7 +170,11 @@ MonoBehaviour:
   EnemyHp: 0
   EnemyDamage: 0
   EnemyBulletSpeed: 0
-  Player: {fileID: 0}
+  IndicatorPrefab: {fileID: 0}
+  IndicatorCanvas: {fileID: 0}
+  TurretTargetPriority: 0
+  EnemyImageCode: 0
+  EnemyName: 
 --- !u!1 &324511658072181205
 GameObject:
   m_ObjectHideFlags: 0

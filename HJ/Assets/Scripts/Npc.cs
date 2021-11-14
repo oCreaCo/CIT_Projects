@@ -40,7 +40,7 @@ public class Npc : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            transform.FindChild("Canvas").gameObject.SetActive(true);
+            transform.Find("Canvas").gameObject.SetActive(true);
             isNearAtNpc = true;
         }
     }
@@ -49,7 +49,7 @@ public class Npc : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            transform.FindChild("Canvas").gameObject.SetActive(false);
+            transform.Find("Canvas").gameObject.SetActive(false);
             isNearAtNpc = false;
 
             if (isTalking)

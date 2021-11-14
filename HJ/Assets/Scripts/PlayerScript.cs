@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    public static PlayerScript playerScript;
     [SerializeField] float MoveSpeed;
-    [SerializeField] float CameraSensivity;
+    public float CameraSensivity;
     [SerializeField] float YRotationLimit;
     [SerializeField] int YRotationReverse;
     [SerializeField] Transform Head;
@@ -24,6 +25,7 @@ public class PlayerScript : MonoBehaviour
 
     void Start()
     {
+        playerScript = this;
         playerHp = playerOriHp;
     }
 
