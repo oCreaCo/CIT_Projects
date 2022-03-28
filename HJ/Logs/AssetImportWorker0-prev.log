@@ -1,296 +1,2152 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/MacOS/Unity
+/Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/evena/Documents/GitHub/CIT_Projects/HJ
+/Users/kals/GitHub/CIT_Projects/HJ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49576
-Successfully changed project path to: /Users/evena/Documents/GitHub/CIT_Projects/HJ
-/Users/evena/Documents/GitHub/CIT_Projects/HJ
+51202
+Successfully changed project path to: /Users/kals/GitHub/CIT_Projects/HJ
+/Users/kals/GitHub/CIT_Projects/HJ
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 81.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path /Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/evena/Documents/GitHub/CIT_Projects/HJ/Assets
+[Subsystems] Discovering subsystems at path /Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kals/GitHub/CIT_Projects/HJ/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-14 13:17:42.003 Unity[1135:21507] Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
-2021-11-14 13:17:42.003 Unity[1135:21507] Metal devices available: 1
-2021-11-14 13:17:42.003 Unity[1135:21507] 0: Intel(R) UHD Graphics 617 (low power)
-2021-11-14 13:17:42.004 Unity[1135:21507] Using device Intel(R) UHD Graphics 617 (low power)
-Initializing Metal device caps: Intel(R) UHD Graphics 617
+2022-02-23 20:39:37.975 Unity[20734:2590595] Color LCD preferred device: AMD Radeon Pro 555 (high power)
+2022-02-23 20:39:37.975 Unity[20734:2590595] Metal devices available: 2
+2022-02-23 20:39:37.975 Unity[20734:2590595] 0: AMD Radeon Pro 555 (high power)
+2022-02-23 20:39:37.975 Unity[20734:2590595] 1: Intel(R) HD Graphics 630 (low power)
+2022-02-23 20:39:37.976 Unity[20734:2590595] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = '/Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56135
+Mono path[0] = '/Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56734
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Users/evena/Desktop/unity/2020.3.6f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000633 seconds.
+Register platform support module: /Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/kals/UnityEditors/2020.3.6f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003279 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 44.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.530 seconds
+- Completed reload, in  3.872 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000672 seconds.
+Registered in 0.008777 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 69.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.619 seconds
+- Completed reload, in  1.572 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Users/evena/Desktop/unity/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Users/kals/UnityEditors/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.4 MB.
+Unloading 2978 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.2 MB.
+System memory in use after: 237.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1718.
-Total: 4.912650 ms (FindLiveObjects: 0.368353 ms CreateObjectMapping: 0.112773 ms MarkObjects: 4.248047 ms  DeleteObjects: 0.180645 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/UIManager.cs
-  artifactKey: Guid(f2ccc63d5798c4919aaf0aad88fec357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIManager.cs using Guid(f2ccc63d5798c4919aaf0aad88fec357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc02c14d9e808638921858335959858') in 0.571907 seconds
-  Import took 0.575751 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000994 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.413 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.1 MB.
-System memory in use after: 130.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1721.
-Total: 2.074591 ms (FindLiveObjects: 0.212998 ms CreateObjectMapping: 0.046898 ms MarkObjects: 1.786310 ms  DeleteObjects: 0.026156 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 3.092777 ms (FindLiveObjects: 0.398223 ms CreateObjectMapping: 0.202906 ms MarkObjects: 2.360351 ms  DeleteObjects: 0.130250 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 283.932330 seconds.
-  path: Assets/Prefab/Canvas 1.prefab
-  artifactKey: Guid(303ab22d244034a3e9e0960b792b70aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Canvas 1.prefab using Guid(303ab22d244034a3e9e0960b792b70aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b85b35176202d0c1fd52927a8919dc4') in 0.354515 seconds
-  Import took 0.358333 seconds .
+  path: Assets/Materials/Map/Concrete Materials/pattern 11/normal.tga
+  artifactKey: Guid(acdae735527314eb0a69e18feeb22ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 11/normal.tga using Guid(acdae735527314eb0a69e18feeb22ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee93d3314a49065772779f4ed6dfecd') in 1.478157 seconds
+  Import took 1.485598 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Prefab/Canvas.prefab
-  artifactKey: Guid(08cd64e24fd244615a113c6e010675c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Canvas.prefab using Guid(08cd64e24fd244615a113c6e010675c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84974ee66cb0a7e30e4f178a60c34b64') in 0.016093 seconds
-  Import took 0.020228 seconds .
+  Time since last request: 0.000805 seconds.
+  path: Assets/AR face Assets/Face Textures/Robot Face/Robot_Occlusion.tga
+  artifactKey: Guid(60d43433d9c944a4a90940aebbd27e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Face Textures/Robot Face/Robot_Occlusion.tga using Guid(60d43433d9c944a4a90940aebbd27e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c882a86b930706399b198e273b05fdb') in 0.017239 seconds
+  Import took 0.023114 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bfa14bf533a6652c56887cf912faa0') in 0.248277 seconds
-  Import took 0.251463 seconds .
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 04/preview.jpg
+  artifactKey: Guid(ea6fbebb7b7c6204d9a867e55c8bbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 04/preview.jpg using Guid(ea6fbebb7b7c6204d9a867e55c8bbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cd39a1a4b0d7c8a63337e86a835922') in 1.246345 seconds
+  Import took 1.252919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_2_Left+X.png
+  artifactKey: Guid(519e05b7b3cd14409b4a22d07660cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_2_Left+X.png using Guid(519e05b7b3cd14409b4a22d07660cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8b1b1b6cdf12c468e56121342e00b6') in 1.260829 seconds
+  Import took 1.267091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@1x.png
+  artifactKey: Guid(7991166a167af4b4793b4fc8fcc3bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@1x.png using Guid(7991166a167af4b4793b4fc8fcc3bfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192ccbae896172455fd3e05e0a658c14') in 0.006638 seconds
+  Import took 0.012759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal33.tga
+  artifactKey: Guid(73c569aaf8abb439cb0ee4ee2304b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal33.tga using Guid(73c569aaf8abb439cb0ee4ee2304b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52d2fe43be356fd0f5b78c450870e75') in 0.009950 seconds
+  Import took 0.015891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Low Poly Helicopters Pack Free/Models/Textures/PaletteTextureUltra.png
+  artifactKey: Guid(7ff29c213c727b24ca6c6c573fce3c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Helicopters Pack Free/Models/Textures/PaletteTextureUltra.png using Guid(7ff29c213c727b24ca6c6c573fce3c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e8a9f40890dbe83782d56b6d3aa2c2') in 0.009414 seconds
+  Import took 0.015072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal13.tga
+  artifactKey: Guid(f97699ec0052a4ae0916d885d54814b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal13.tga using Guid(f97699ec0052a4ae0916d885d54814b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2be79af01380829e2c5759b7c67ce3') in 0.009779 seconds
+  Import took 0.015852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_1_Back-Z.png
+  artifactKey: Guid(5e2aba0844c5a4c2ca77ba49a1ea08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_1_Back-Z.png using Guid(5e2aba0844c5a4c2ca77ba49a1ea08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65c0bf43ccd126289c4f46e04a43f8a') in 0.031513 seconds
+  Import took 0.040549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal02.tga
+  artifactKey: Guid(1dcefea2cf9c34061bd43f619359d35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal02.tga using Guid(1dcefea2cf9c34061bd43f619359d35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1329f930c4be0d8bea3c47f34ca0639d') in 0.009656 seconds
+  Import took 0.017206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_01.png
+  artifactKey: Guid(e4a6b67ac365349d8b7c358676aaf022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_01.png using Guid(e4a6b67ac365349d8b7c358676aaf022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bd87166acc9a579181f2a59ae20a40') in 0.006812 seconds
+  Import took 0.013468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Materials/UI/crosshair1.png
+  artifactKey: Guid(5d1012bbd8d624aff8f3e573d2b1c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/crosshair1.png using Guid(5d1012bbd8d624aff8f3e573d2b1c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13d85ace79e3520968c0ff2ca984782') in 0.115884 seconds
+  Import took 0.121200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/checkerGround.psd
+  artifactKey: Guid(ee2523340e7944c4297a80937a51484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/checkerGround.psd using Guid(ee2523340e7944c4297a80937a51484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd43baaacc9d6d3b67bccb507d386d49') in 1.235652 seconds
+  Import took 1.241554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 12/diffuse.tga
+  artifactKey: Guid(3b8946aed86e54719b3ec3f007fcec32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 12/diffuse.tga using Guid(3b8946aed86e54719b3ec3f007fcec32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8074c6136c06d8d831063c54c0af7481') in 0.029191 seconds
+  Import took 0.034888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 17/diffuse.tga
+  artifactKey: Guid(2460b5c82f6cc4b4596b3884194e34b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 17/diffuse.tga using Guid(2460b5c82f6cc4b4596b3884194e34b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a52dcc6ec768ac1d50d54629f29a4e3') in 0.013269 seconds
+  Import took 0.018904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal35.tga
+  artifactKey: Guid(4ae9915819ebb4dcab128e73fff1ff58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal35.tga using Guid(4ae9915819ebb4dcab128e73fff1ff58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a18f266fd2e888c94d21d9aa10bf1a') in 0.011949 seconds
+  Import took 0.019445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_3_Right-X.png
+  artifactKey: Guid(0ccd1239645f54012a6ea72739d04982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_3_Right-X.png using Guid(0ccd1239645f54012a6ea72739d04982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84af916dfaf5b82834b8d9918d84b85') in 0.023603 seconds
+  Import took 0.030928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 11/preview.jpg
+  artifactKey: Guid(141a53777240c2644b20b45c14cdb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 11/preview.jpg using Guid(141a53777240c2644b20b45c14cdb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662c9de50f1255c4956c0bc39c468ece') in 0.010099 seconds
+  Import took 0.016843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_Normal.png
+  artifactKey: Guid(37972c32346084c13bfddb8c3dbed143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_Normal.png using Guid(37972c32346084c13bfddb8c3dbed143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42808ae87dde9d544b0ccc4435a65deb') in 0.008322 seconds
+  Import took 0.015359 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000303 seconds.
-  path: Assets/Prefab/EscMenuManage.prefab
-  artifactKey: Guid(29400b7f90e944d24929e1e3451587c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/EscMenuManage.prefab using Guid(29400b7f90e944d24929e1e3451587c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421ab2098318429eaadce24e0a10152f') in 0.023251 seconds
-  Import took 0.026150 seconds .
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal07.tga
+  artifactKey: Guid(fd4ba2d7718af40df883842f4ff3727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal07.tga using Guid(fd4ba2d7718af40df883842f4ff3727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d2286e6e78acbe272ed6a525a14db5') in 0.013245 seconds
+  Import took 0.018712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 05/preview.jpg
+  artifactKey: Guid(70f4b090dd9924e4d96be2d653c9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 05/preview.jpg using Guid(70f4b090dd9924e4d96be2d653c9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd595c68e8fbbd033c8e477279148ec72') in 0.009252 seconds
+  Import took 0.015480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/AR face Assets/Face Textures/Robot Face/Robot_Normal.tga
+  artifactKey: Guid(5ab73bd4833504601bdc404fe852ac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Face Textures/Robot Face/Robot_Normal.tga using Guid(5ab73bd4833504601bdc404fe852ac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eac90b4bec2a6fcd81f234d1850936') in 0.015388 seconds
+  Import took 0.022020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 14/diffuse.tga
+  artifactKey: Guid(66f08f21369f8424fa5cec425863aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 14/diffuse.tga using Guid(66f08f21369f8424fa5cec425863aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f41581af9942dddfbbc9fe5570391') in 0.011619 seconds
+  Import took 0.018546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@1x.png
+  artifactKey: Guid(aec40eb6c450c4bdea484100ff9fb9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@1x.png using Guid(aec40eb6c450c4bdea484100ff9fb9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadd48f990e1ced9b5477e38bbc5c9b4') in 0.008358 seconds
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@1x.png
+  artifactKey: Guid(c43744025f7024e20b5fe880600d19a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@1x.png using Guid(c43744025f7024e20b5fe880600d19a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44d171c29b383ccd36a7f0d7327ecb') in 0.008184 seconds
+  Import took 0.013354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@1x.png
+  artifactKey: Guid(c3f63c474ba404e88a6a16a074cced39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@1x.png using Guid(c3f63c474ba404e88a6a16a074cced39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f746c5291996b405435adb048275927b') in 0.008772 seconds
+  Import took 0.013983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@1x.png
+  artifactKey: Guid(c051ffc737cd54d909137d2937e82930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@1x.png using Guid(c051ffc737cd54d909137d2937e82930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d479b3ff024f8809c22805d29c980e4') in 0.007368 seconds
+  Import took 0.013389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Rifle/Textures/rifle_nrm.tga
+  artifactKey: Guid(5087bb464ab5e7e4486e5bd5aa868aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rifle/Textures/rifle_nrm.tga using Guid(5087bb464ab5e7e4486e5bd5aa868aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333355e999dd591b65e08bbd114ac5b9') in 0.092403 seconds
+  Import took 0.100336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_BaseColor.png
+  artifactKey: Guid(b0bbd435645634371b4d2edece397912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_BaseColor.png using Guid(b0bbd435645634371b4d2edece397912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffab6db425e07de44380c96c4b5d6db') in 0.018955 seconds
+  Import took 0.026432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_4_Up+Y.png
+  artifactKey: Guid(93ce6277acd7243f685c04cc3c1d0cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_4_Up+Y.png using Guid(93ce6277acd7243f685c04cc3c1d0cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037d3749d27adf5a4f3284885a4e47ad') in 0.026372 seconds
+  Import took 0.033466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@1x.png
+  artifactKey: Guid(efb7b60811b9a4ec7b92ecfcaa9bcd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@1x.png using Guid(efb7b60811b9a4ec7b92ecfcaa9bcd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f343347a4e2b55f995c00d7c995caa9c') in 0.008659 seconds
+  Import took 0.014744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@1x.png
+  artifactKey: Guid(d0f7738d6b5b2420b9a77bfef3926e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@1x.png using Guid(d0f7738d6b5b2420b9a77bfef3926e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1ee1374e47c894cd12f6be4bdedd50') in 0.009515 seconds
+  Import took 0.015315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal22.tga
+  artifactKey: Guid(d7084573baf264338b2ac283a562b8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal22.tga using Guid(d7084573baf264338b2ac283a562b8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e140053cc4da3676d42c52352b56c6') in 0.014233 seconds
+  Import took 0.020629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_4_Up+Y.png
+  artifactKey: Guid(d6efad16563c1446d86a121dbb004300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_4_Up+Y.png using Guid(d6efad16563c1446d86a121dbb004300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62897ffb002782f0f07c7b67fefc965f') in 0.022493 seconds
+  Import took 0.030002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox3_separator.png
+  artifactKey: Guid(e101da2dcb7a14fa2aed1a65c384a99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox3_separator.png using Guid(e101da2dcb7a14fa2aed1a65c384a99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0143d2f85276a43ab4fb81be34b2939') in 0.008267 seconds
+  Import took 0.014050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_normal.png
+  artifactKey: Guid(fb3e1d793e4f0459f8b913d0d2d76e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_normal.png using Guid(fb3e1d793e4f0459f8b913d0d2d76e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79d705094e48c84aab215546f8286ac') in 0.009075 seconds
+  Import took 0.014913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/colorInterpolationBox.png
+  artifactKey: Guid(0790ee8db18ed49ed8369be285199835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/colorInterpolationBox.png using Guid(0790ee8db18ed49ed8369be285199835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52a17f07a0efada62f0d7ab0a8afff7') in 0.009460 seconds
+  Import took 0.015934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 20/normal.tga
+  artifactKey: Guid(309db3d0b38e940ab9109de457309c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 20/normal.tga using Guid(309db3d0b38e940ab9109de457309c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90388733cccfddee587a838834e2d913') in 0.015629 seconds
+  Import took 0.023898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 10/preview.jpg
+  artifactKey: Guid(3cca3be7de00d904ba412eb14b6c1990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 10/preview.jpg using Guid(3cca3be7de00d904ba412eb14b6c1990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9c972d25ab54a4a71bb02a44b3150c') in 0.012691 seconds
+  Import took 0.019729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@2x.png
+  artifactKey: Guid(957d0fd6ae3494da9aed50c5d7d7ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_open@2x.png using Guid(957d0fd6ae3494da9aed50c5d7d7ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3164fda0651f89d6e202ebabbda9b6bd') in 0.009212 seconds
+  Import took 0.016139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset
+  artifactKey: Guid(ce970816794dc4a6c8b5acdbc5953551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset using Guid(ce970816794dc4a6c8b5acdbc5953551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7271816134d9d7ae198e8a538822b0cd') in 1.110287 seconds
+  Import took 1.117713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@2x.png
+  artifactKey: Guid(3772050cdbd2a472789aa76d6de5b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@2x.png using Guid(3772050cdbd2a472789aa76d6de5b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3018723bd3ca173f36e1b554ac7f3e0') in 0.006886 seconds
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/grid.psd
+  artifactKey: Guid(527965173b00f43f9a1b8fc9e8c2e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/grid.psd using Guid(527965173b00f43f9a1b8fc9e8c2e64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1abf3a035b32afb9b0df1febbe49f66') in 0.006033 seconds
+  Import took 0.011814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Realistic Hail Set/Textures/Particle Soft.png
+  artifactKey: Guid(1768d928da905490fa62641bdc0ea369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Hail Set/Textures/Particle Soft.png using Guid(1768d928da905490fa62641bdc0ea369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13670af980a81f7f53775a803ecb7a5b') in 0.015587 seconds
+  Import took 0.021177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/AR face Assets/Images/johnlemon.png
+  artifactKey: Guid(fa07b4ad7317c4e83af2b9dda77de2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Images/johnlemon.png using Guid(fa07b4ad7317c4e83af2b9dda77de2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02210726eb249bd8385cdd979ca6079') in 0.011551 seconds
+  Import took 0.018530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png
+  artifactKey: Guid(604c8e250817f485c97f85e8237f7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png using Guid(604c8e250817f485c97f85e8237f7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9cd39998311d11cd21fe054ab842b0') in 0.019860 seconds
+  Import took 0.025276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_02.png
+  artifactKey: Guid(0a9d941450e7c46cf8928d06762c2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownArrow_02.png using Guid(0a9d941450e7c46cf8928d06762c2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4131cb89f7302a9bf43a72f855d3b05') in 0.007061 seconds
+  Import took 0.012127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@2x.png
+  artifactKey: Guid(a454b67ef7bd04780aca99e364202679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@2x.png using Guid(a454b67ef7bd04780aca99e364202679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd976dfc00ef3fe1fa500fcbe966d23ac') in 0.006448 seconds
+  Import took 0.011234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 20/diffuse.tga
+  artifactKey: Guid(30b9baecd4db34006a3fc27f4aa5b4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 20/diffuse.tga using Guid(30b9baecd4db34006a3fc27f4aa5b4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426d9b175b5889531d315ff95be3d621') in 0.009090 seconds
+  Import took 0.013877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 19/normal.tga
+  artifactKey: Guid(cf56278f73bd6473583c41e76a4633e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 19/normal.tga using Guid(cf56278f73bd6473583c41e76a4633e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7978a9130c22d808222619351a5b8e') in 0.009058 seconds
+  Import took 0.016280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_0_Front+Z.png
+  artifactKey: Guid(402fe3aa91fba453f92dd3bbe820dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_0_Front+Z.png using Guid(402fe3aa91fba453f92dd3bbe820dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfc9dc007590cb730ff01b32b319521') in 0.024440 seconds
+  Import took 0.030263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown_on.png
+  artifactKey: Guid(d8951099054c64beaaa49d675d71cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown_on.png using Guid(d8951099054c64beaaa49d675d71cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcaebf21ebc6b38dd040a04224f2bc0') in 0.005507 seconds
+  Import took 0.010789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png
+  artifactKey: Guid(04869052f46ba428caebe862513e3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png using Guid(04869052f46ba428caebe862513e3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3c40acc61362b11a2d769a32272207') in 0.020053 seconds
+  Import took 0.025367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 16/preview.jpg
+  artifactKey: Guid(e7a8e5655be92094eb1308612a817814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 16/preview.jpg using Guid(e7a8e5655be92094eb1308612a817814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34703677c86278d0fb04f4dce1d460f') in 0.006887 seconds
+  Import took 0.012235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@2x.png
+  artifactKey: Guid(d04d4a88875f842c88825d3d5b2b529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@2x.png using Guid(d04d4a88875f842c88825d3d5b2b529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54a74eca4571522fa8544792dd47e6') in 0.006603 seconds
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@2x.png
+  artifactKey: Guid(f7ae6f90d33d043c684812513307ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@2x.png using Guid(f7ae6f90d33d043c684812513307ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a905f4123d2b33c170874d9fee94c70c') in 0.005686 seconds
+  Import took 0.011413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal31.tga
+  artifactKey: Guid(dcb76b662a90141afa25cbe3c50395b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal31.tga using Guid(dcb76b662a90141afa25cbe3c50395b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5033f4b7055b0be298c39707c1518d2') in 0.008399 seconds
+  Import took 0.014100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/AR face Assets/Images/createwithcode.png
+  artifactKey: Guid(66d6838a092d4492495e57a70bc8d37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Images/createwithcode.png using Guid(66d6838a092d4492495e57a70bc8d37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1931ab320a796b157bf1ec760036fbde') in 0.030509 seconds
+  Import took 0.036234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 17/normal.tga
+  artifactKey: Guid(178da532ee40e4d1c9471a6de9c71728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 17/normal.tga using Guid(178da532ee40e4d1c9471a6de9c71728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4378874ba7b63da1423195bc251bab29') in 0.010052 seconds
+  Import took 0.015022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_01.png
+  artifactKey: Guid(4cecafde1350347fd984baee5961a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_01.png using Guid(4cecafde1350347fd984baee5961a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bff4775ed939d586b80c3fc0e2e8090') in 0.006678 seconds
+  Import took 0.013063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_On.png
+  artifactKey: Guid(3d11311e97436432e897a4bd0b5fbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_On.png using Guid(3d11311e97436432e897a4bd0b5fbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725e876d26cc6ee99b05bb588b6c8c25') in 0.006673 seconds
+  Import took 0.012090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal09.tga
+  artifactKey: Guid(7c03ed856964a47be98bb7f249a433fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal09.tga using Guid(7c03ed856964a47be98bb7f249a433fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b94f2cdde79f61be3f0f96e1db4470a') in 0.010269 seconds
+  Import took 0.016421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal05.tga
+  artifactKey: Guid(66518d5270ad84ed1914bacb8e8fba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal05.tga using Guid(66518d5270ad84ed1914bacb8e8fba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcfbb634845955e960bb27842cf6fd0') in 0.010332 seconds
+  Import took 0.015075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_5_Down-Y.png
+  artifactKey: Guid(2e38ed7c39e8e4314930da8a86ae7a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_5_Down-Y.png using Guid(2e38ed7c39e8e4314930da8a86ae7a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec6b9afeaa295cfc1b7595961b4e495') in 0.032345 seconds
+  Import took 0.037750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/AR face Assets/3D Heads/Plasticene Head/Plasto_Head_normal.tga
+  artifactKey: Guid(799e6cef218874873a0fdb34be5b4fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/3D Heads/Plasticene Head/Plasto_Head_normal.tga using Guid(799e6cef218874873a0fdb34be5b4fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6e4da159459c866464cd072a445b6') in 0.027711 seconds
+  Import took 0.033177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@1x.png
+  artifactKey: Guid(c780955fc9d0f458abc0de8f2f9cedb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@1x.png using Guid(c780955fc9d0f458abc0de8f2f9cedb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cac4c2a30f1a3623d19c08408e2d509') in 0.026246 seconds
+  Import took 0.032384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@2x.png
+  artifactKey: Guid(321a1fe2502bc493d87337a3a4429cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@2x.png using Guid(321a1fe2502bc493d87337a3a4429cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3ea1238e6e9dbe61cd3e2e26699d2d') in 0.006188 seconds
+  Import took 0.012796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/HumanShaderPack/HairShaderSimple/Textures_hair/HairVariator_Rougher.png
+  artifactKey: Guid(a8b3df9790204c04b8a946be3c34be9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HumanShaderPack/HairShaderSimple/Textures_hair/HairVariator_Rougher.png using Guid(a8b3df9790204c04b8a946be3c34be9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8ed3a96bbda5cf18970f4c672a1e77') in 0.015410 seconds
+  Import took 0.020664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Roughness.png
+  artifactKey: Guid(2262f4805c622d14586e1b685d8ca82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Roughness.png using Guid(2262f4805c622d14586e1b685d8ca82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc855e67b32abf73b71849e1dd41393') in 0.011879 seconds
+  Import took 0.017840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_3_Right-X.png
+  artifactKey: Guid(47551dad0d90646a9a5dac436076f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_3_Right-X.png using Guid(47551dad0d90646a9a5dac436076f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2174f635003b00a03e442440ac2c097d') in 0.015043 seconds
+  Import took 0.021003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@2x.png
+  artifactKey: Guid(f834e7df6f42446b59c83dca1e5bd098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@2x.png using Guid(f834e7df6f42446b59c83dca1e5bd098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c747d4c8aba32428ecc9288fdac99af') in 0.007375 seconds
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@1x.png
+  artifactKey: Guid(3805c157b9b38472684befb652c5d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_open@1x.png using Guid(3805c157b9b38472684befb652c5d213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc75e968471b935163002a7b3d433cc7') in 0.006019 seconds
+  Import took 0.011916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.png
+  artifactKey: Guid(c8f21f62fdb3e43c5b32917c84683698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.png using Guid(c8f21f62fdb3e43c5b32917c84683698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e44cb34d42c95a4b3475581aa6677c') in 0.657111 seconds
+  Import took 0.667064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png
+  artifactKey: Guid(cbdb0c81375e549b1bae3506c1863a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png using Guid(cbdb0c81375e549b1bae3506c1863a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdbfe38958de5afb60a3326c4564c34') in 0.013169 seconds
+  Import took 0.019100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@2x.png
+  artifactKey: Guid(6444e8eb74e6f40e0a966d1e26744d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@2x.png using Guid(6444e8eb74e6f40e0a966d1e26744d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45047676e72aaa7389e5ab0fb6bb8398') in 0.005691 seconds
+  Import took 0.011695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 14/normal.tga
+  artifactKey: Guid(1f15b7e29f8824306a4199cc37c1be43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 14/normal.tga using Guid(1f15b7e29f8824306a4199cc37c1be43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ee6166a0a5283cf338794330cfbf51') in 0.008343 seconds
+  Import took 0.014933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@1x.png
+  artifactKey: Guid(86cd0618b10f3494c831ac9215649110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@1x.png using Guid(86cd0618b10f3494c831ac9215649110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80f234019b004988ba8b0fb321678a1') in 0.006903 seconds
+  Import took 0.011837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 18/preview.jpg
+  artifactKey: Guid(305be0ee9678e6b4d96a82028b7c443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 18/preview.jpg using Guid(305be0ee9678e6b4d96a82028b7c443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba02b6cac5236e97dc416d053bc6e6fa') in 0.008170 seconds
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal27.tga
+  artifactKey: Guid(342e079869f834196b34036a14699f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal27.tga using Guid(342e079869f834196b34036a14699f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fd9a3306603f4085fd355847d9cc79') in 0.009247 seconds
+  Import took 0.014946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect.png
+  artifactKey: Guid(b593db43606434498a7200f8281297d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect.png using Guid(b593db43606434498a7200f8281297d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca785684de2a6e03b26e388e35898d0') in 0.007329 seconds
+  Import took 0.014223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@1x.png
+  artifactKey: Guid(54ad5f6eb8a9349568e58cd1204388a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_on@1x.png using Guid(54ad5f6eb8a9349568e58cd1204388a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dae0da807e0009fbaa148db7b79ce6') in 0.005861 seconds
+  Import took 0.011973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@2x.png
+  artifactKey: Guid(5a358b45ec6c34f20b9f792e1f259b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@2x.png using Guid(5a358b45ec6c34f20b9f792e1f259b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86029e693e7b561f41dcb0d030ff3b69') in 0.005926 seconds
+  Import took 0.013033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal17.tga
+  artifactKey: Guid(c063ee3b710ac4a62b0cd96dc8ebbcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal17.tga using Guid(c063ee3b710ac4a62b0cd96dc8ebbcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550d9182ab617bf4017d3532ecebeff2') in 0.008459 seconds
+  Import took 0.014044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal32.tga
+  artifactKey: Guid(60c16eacf70024f76b075f8a5c3751a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal32.tga using Guid(60c16eacf70024f76b075f8a5c3751a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0dbefe3183dea43edc941ecdf2758d') in 0.007701 seconds
+  Import took 0.012514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_02.png
+  artifactKey: Guid(c7970d065c27b4d7c9ac2ff73b61733e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/upDownButtons_02.png using Guid(c7970d065c27b4d7c9ac2ff73b61733e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40d796c9aa1a630eb4ef7b22c420f2c') in 0.006073 seconds
+  Import took 0.010884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 15/normal.tga
+  artifactKey: Guid(b75d0eab57cff448b86baad5a3ae8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 15/normal.tga using Guid(b75d0eab57cff448b86baad5a3ae8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba87627dffddeb84514db4ae905a451') in 0.009011 seconds
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal21.tga
+  artifactKey: Guid(9678e219aaa7a44b9b33205ff25e2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal21.tga using Guid(9678e219aaa7a44b9b33205ff25e2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce44d326f7b0d777d6d8e9c8022592b6') in 0.010644 seconds
+  Import took 0.017663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal36.tga
+  artifactKey: Guid(d1b396b437cf845efab7c245c712d5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal36.tga using Guid(d1b396b437cf845efab7c245c712d5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e278d7ad36fa9183371ef5cf0e36a0c') in 0.010209 seconds
+  Import took 0.018533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect-03.png
+  artifactKey: Guid(0758c9e42111d4aec99694c875e9badc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect-03.png using Guid(0758c9e42111d4aec99694c875e9badc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b12c281324ec7b9f40b83bc26bbb71') in 0.006579 seconds
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_EquiRect.png
+  artifactKey: Guid(8a293ce833d584fc98516e0e74f495a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_EquiRect.png using Guid(8a293ce833d584fc98516e0e74f495a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d3bb926b42cce82b514caf00f08694') in 0.485998 seconds
+  Import took 0.496237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 18/normal.tga
+  artifactKey: Guid(0230a174061cc4a69bdb667842536eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 18/normal.tga using Guid(0230a174061cc4a69bdb667842536eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19356375cc8d40f81de3b71d3918d8cf') in 0.012204 seconds
+  Import took 0.017680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@2x.png
+  artifactKey: Guid(e8ebb72a41d314b288545fddfd20cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@2x.png using Guid(e8ebb72a41d314b288545fddfd20cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66abd9ffcded6c727ab71308456c791') in 0.005932 seconds
+  Import took 0.011816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@1x.png
+  artifactKey: Guid(3354fe2e1951d420fa49d8f4fec2954b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton_active@1x.png using Guid(3354fe2e1951d420fa49d8f4fec2954b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80afa7c1e0103eac0df1a0eda8bec985') in 0.007058 seconds
+  Import took 0.012221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 05/diffuse.tga
+  artifactKey: Guid(8f7b0ede126a24595b95cbab821f5192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 05/diffuse.tga using Guid(8f7b0ede126a24595b95cbab821f5192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6567e8ec6313e59239a3626ffa3c6005') in 0.011990 seconds
+  Import took 0.017555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@1x.png
+  artifactKey: Guid(3240f334343ca4dee8239c16d2de57c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton@1x.png using Guid(3240f334343ca4dee8239c16d2de57c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210f4dfc511c0b29bcda11979c406e1d') in 0.005699 seconds
+  Import took 0.011146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest 4.png
+  artifactKey: Guid(936df982a86d7f94d82ccf510ad5ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest 4.png using Guid(936df982a86d7f94d82ccf510ad5ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf92fc2ab476eb3e2a34f1595086c30') in 0.064709 seconds
+  Import took 0.074731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 02/preview.jpg
+  artifactKey: Guid(07a98f2a2d328484eb1ec0d5dfe110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 02/preview.jpg using Guid(07a98f2a2d328484eb1ec0d5dfe110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434513e828f6a279c063f943ce53a268') in 0.008695 seconds
+  Import took 0.015935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal25.tga
+  artifactKey: Guid(d5af23a18ba304ad099624bad4d30bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal25.tga using Guid(d5af23a18ba304ad099624bad4d30bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22f7072663bd382b54176f455f029c8') in 0.012211 seconds
+  Import took 0.020040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@2x.png
+  artifactKey: Guid(731ce0beec302410299a12fa1da2dc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@2x.png using Guid(731ce0beec302410299a12fa1da2dc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56af167a9282dc5a79713ac6dd5e60f9') in 0.007396 seconds
+  Import took 0.014343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gridPivotSelect.png
+  artifactKey: Guid(11b8d44fcb3cf4c048a576df708e0ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gridPivotSelect.png using Guid(11b8d44fcb3cf4c048a576df708e0ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e13ccfa037ed3af2eb28aa0d6a11ad6') in 0.006048 seconds
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 10/diffuse.tga
+  artifactKey: Guid(82978b19e86be41fdaf73010f861b5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 10/diffuse.tga using Guid(82978b19e86be41fdaf73010f861b5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f645150d209a6bb168054a4b27ab8ec9') in 0.011012 seconds
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 01/preview.jpg
+  artifactKey: Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 01/preview.jpg using Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff957f950453988a0cc6db9703da1e08') in 0.008285 seconds
+  Import took 0.014767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 13/preview.jpg
+  artifactKey: Guid(f0e62d03632cea245ae3eb63ebaccaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 13/preview.jpg using Guid(f0e62d03632cea245ae3eb63ebaccaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e979239daa99fee3e69d1f4724310de') in 0.009070 seconds
+  Import took 0.016144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@1x.png
+  artifactKey: Guid(7604699b5bc8f4343b03cc4d0b603403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@1x.png using Guid(7604699b5bc8f4343b03cc4d0b603403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd2e09638556ad9b45b75686fc19ac6') in 0.009982 seconds
+  Import took 0.017456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Materials/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif
+  artifactKey: Guid(2ed3d41b7c655bf4daa77f71b994f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IgniteCoders/Simple Water Shader/Resources/WaterSurface_atlas.tif using Guid(2ed3d41b7c655bf4daa77f71b994f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27c836671d0a2358a285b7e98c52b74') in 1.200348 seconds
+  Import took 1.206623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@1x.png
+  artifactKey: Guid(a4bb5812f98bf40a68d9c1a69ad860cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/scene_box@1x.png using Guid(a4bb5812f98bf40a68d9c1a69ad860cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9094cf4c1b3623899156167a978ca4f1') in 0.008080 seconds
+  Import took 0.013683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal29.tga
+  artifactKey: Guid(3a0f911da5b0e47d882745f524b992e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal29.tga using Guid(3a0f911da5b0e47d882745f524b992e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00bc00df412c4ab76f6593179a3602c') in 0.010292 seconds
+  Import took 0.015967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Realistic Hail Set/Textures/Ripple 1.png
+  artifactKey: Guid(4524b40e14c42458b9f0f4e0a8229baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Hail Set/Textures/Ripple 1.png using Guid(4524b40e14c42458b9f0f4e0a8229baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1802f5b989f2fcbf00948820ce41cfe1') in 0.015865 seconds
+  Import took 0.022234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.png
+  artifactKey: Guid(66e51860485ae4048a30f7e029e65af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.png using Guid(66e51860485ae4048a30f7e029e65af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f0681e98c4b21fdf6be9822e466d5c') in 0.477514 seconds
+  Import took 0.487597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/IgniteCoders/Simple Water Shader/Info/Icons/Water Shader icon.PNG
+  artifactKey: Guid(766a7edc5f25e3b4daafb5554da17927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IgniteCoders/Simple Water Shader/Info/Icons/Water Shader icon.PNG using Guid(766a7edc5f25e3b4daafb5554da17927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6386d90e9fec77fffab3a5265731b592') in 1.173953 seconds
+  Import took 1.180195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AR face Assets/3D Heads/Faceted Head/Faceted_Occlusion.tga
+  artifactKey: Guid(cb2c16b26762f41148856da83e41b262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/3D Heads/Faceted Head/Faceted_Occlusion.tga using Guid(cb2c16b26762f41148856da83e41b262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca55f4d129f898b562a29eeb898f9e') in 0.017871 seconds
+  Import took 0.023679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Height.png
+  artifactKey: Guid(7d8a30db7f3f2384f9197a00d6fc4663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Height.png using Guid(7d8a30db7f3f2384f9197a00d6fc4663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83376878fc508f67b298ea0fc534b3ea') in 0.012884 seconds
+  Import took 0.018322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/AR face Assets/Face Textures/Pop Face/PopFace_Albedo.tga
+  artifactKey: Guid(c618fae771fb049fea0c6661474b8552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Face Textures/Pop Face/PopFace_Albedo.tga using Guid(c618fae771fb049fea0c6661474b8552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af1c8557f6e3deaaa31f45b1f473338') in 0.020746 seconds
+  Import took 0.026813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@2x.png
+  artifactKey: Guid(6010a63a238ef4899872fe5bd998dbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_width@2x.png using Guid(6010a63a238ef4899872fe5bd998dbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c9b265c0358d82b76372d4827a62e0') in 0.007985 seconds
+  Import took 0.013722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@2x.png
+  artifactKey: Guid(5ed56a3e069cd4b5aa4360154acc026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/pixelBox3@2x.png using Guid(5ed56a3e069cd4b5aa4360154acc026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60384d1ffd172c4c51ec1c056d709117') in 0.005457 seconds
+  Import took 0.011080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AR face Assets/3D Heads/Plasticene Head/Plasto_Head_Albedo.tga
+  artifactKey: Guid(6a0412103c19947c3afed4ae4bcb0af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/3D Heads/Plasticene Head/Plasto_Head_Albedo.tga using Guid(6a0412103c19947c3afed4ae4bcb0af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab52e4affaede5a922e99bd3f92e5eb1') in 0.024153 seconds
+  Import took 0.030321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 05/normal.tga
+  artifactKey: Guid(980751f006bf145d9874c92fcdd69be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 05/normal.tga using Guid(980751f006bf145d9874c92fcdd69be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297970f81386cb076de9de3408ff3fc') in 0.009869 seconds
+  Import took 0.015839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 19/diffuse.tga
+  artifactKey: Guid(936dec22935dd49c6880579f9092d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 19/diffuse.tga using Guid(936dec22935dd49c6880579f9092d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa3353813f53be27e0305c2a84eb61f') in 0.011397 seconds
+  Import took 0.018069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal03.tga
+  artifactKey: Guid(17fa3c7179bad4c8aa2c23868eb898cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal03.tga using Guid(17fa3c7179bad4c8aa2c23868eb898cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1245bfe1f9fe39ded06be4bdaf9a1587') in 0.008638 seconds
+  Import took 0.015391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_On.png
+  artifactKey: Guid(7ea4fc739ffbb4af1a466f655bf1d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect_On.png using Guid(7ea4fc739ffbb4af1a466f655bf1d178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b208411e24b8ba16ccbbf0b5d978b1c8') in 0.004837 seconds
+  Import took 0.011423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png
+  artifactKey: Guid(3e1c1042c332d4444bfe47799ff3e0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png using Guid(3e1c1042c332d4444bfe47799ff3e0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf053f2dbf2c19aba782e1dee8d026f6') in 0.026395 seconds
+  Import took 0.031983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@1x.png
+  artifactKey: Guid(b05124c2b9dc5429a84ef0195a916fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/gizmoButton_off@1x.png using Guid(b05124c2b9dc5429a84ef0195a916fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4602140d6a4070e980aa19c4d2bb1cb8') in 0.006732 seconds
+  Import took 0.012664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 03/preview.jpg
+  artifactKey: Guid(f4ecf1c1e4543d14ea7d040b6ad512de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 03/preview.jpg using Guid(f4ecf1c1e4543d14ea7d040b6ad512de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb638d7b9cd79669d180d3a5ccc71a2') in 0.007005 seconds
+  Import took 0.012937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png
+  artifactKey: Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png using Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43f4fc96ac49c73c4c7348b1749919f') in 0.036157 seconds
+  Import took 0.042808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Normal.png
+  artifactKey: Guid(aac63b2db9cd647fdb3924f8faad81b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Normal.png using Guid(aac63b2db9cd647fdb3924f8faad81b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0571f2457845024f393dc08605af25d7') in 0.011702 seconds
+  Import took 0.017862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_Normal.png
+  artifactKey: Guid(9de7a15ab4e1d48da9861247bc34226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/gridPivotSelect_Normal.png using Guid(9de7a15ab4e1d48da9861247bc34226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1497cb11a71f85af647d048522c489') in 0.006465 seconds
+  Import took 0.011587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp.png
+  artifactKey: Guid(b1722c752c8754c5281b2efd6cf8477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp.png using Guid(b1722c752c8754c5281b2efd6cf8477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223e7b2d64bd23396d62410c4175c696') in 0.006020 seconds
+  Import took 0.010988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_normal.png
+  artifactKey: Guid(53ee29e7cbeb545bcb1ca238a2736fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_normal.png using Guid(53ee29e7cbeb545bcb1ca238a2736fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25201197d1915c61f88c6c0231f86ee') in 0.008212 seconds
+  Import took 0.013431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal18.tga
+  artifactKey: Guid(346cbcc62192f4d199e95c4da1d82381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal18.tga using Guid(346cbcc62192f4d199e95c4da1d82381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13707452c5a4a19808c89cafc6800ab') in 0.015928 seconds
+  Import took 0.022366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Realistic Hail Set/Textures/Particle Med.png
+  artifactKey: Guid(5fbe74aaad8814fa986693f9e6a3b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Hail Set/Textures/Particle Med.png using Guid(5fbe74aaad8814fa986693f9e6a3b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1365d578e8758144916a9d02b8a7a357') in 0.010361 seconds
+  Import took 0.015135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal10.tga
+  artifactKey: Guid(67faf59835c4d40a7b6bfa642bf13a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal10.tga using Guid(67faf59835c4d40a7b6bfa642bf13a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350eea99efb585f15d479e83ac8c4894') in 0.008456 seconds
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal30.tga
+  artifactKey: Guid(102cddc5463fb449ca3d721bc1affb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal30.tga using Guid(102cddc5463fb449ca3d721bc1affb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f66c163446ad9a1cc90ecf5a4a00850') in 0.008956 seconds
+  Import took 0.014333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 06/normal.tga
+  artifactKey: Guid(00cef982feeb5451ba9bed906740f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 06/normal.tga using Guid(00cef982feeb5451ba9bed906740f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306d489d877051a298c33fdc15a35d0e') in 0.009253 seconds
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 15/preview.jpg
+  artifactKey: Guid(1892b5ecef2d16044979248b98bd5233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 15/preview.jpg using Guid(1892b5ecef2d16044979248b98bd5233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae101057963c2568199c2c2d6d0eb1ee') in 0.007251 seconds
+  Import took 0.012930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 19/preview.jpg
+  artifactKey: Guid(47af16f51bd2a4b499774895c9be3dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 19/preview.jpg using Guid(47af16f51bd2a4b499774895c9be3dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9abc66f628f336dca5e0811b6b1b02a') in 0.007730 seconds
+  Import took 0.012929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/HumanShaderPack/HairShaderSimple/Textures_hair/hairNorm.png
+  artifactKey: Guid(e1340b4cec6874c40b5ccb063d150346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HumanShaderPack/HairShaderSimple/Textures_hair/hairNorm.png using Guid(e1340b4cec6874c40b5ccb063d150346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e125723a29d9eb3b574023e0cc6cee') in 0.008660 seconds
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@2x.png
+  artifactKey: Guid(7b229d059f89d49918aec1466c0c5819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@2x.png using Guid(7b229d059f89d49918aec1466c0c5819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4bf49c2184efa84dfd548291ce9ca9') in 0.005963 seconds
+  Import took 0.012360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest 1.png
+  artifactKey: Guid(6f801cb597fd08f4ca3336f392517f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest 1.png using Guid(6f801cb597fd08f4ca3336f392517f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c8bce835c7305ef560f1fa743b2ee') in 0.015918 seconds
+  Import took 0.021487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 11/diffuse.tga
+  artifactKey: Guid(2f8ae0c2ccfe04bcba9eb29135643c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 11/diffuse.tga using Guid(2f8ae0c2ccfe04bcba9eb29135643c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c62abff267d6ba80f848e59b535b4e') in 0.010594 seconds
+  Import took 0.016199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal11.tga
+  artifactKey: Guid(36b8c073f3dbf42ff856b4dc010af476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal11.tga using Guid(36b8c073f3dbf42ff856b4dc010af476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc188a7e06535f3ca20ca2236ca944a') in 0.008435 seconds
+  Import took 0.013618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 07/preview.jpg
+  artifactKey: Guid(a48aeff9c0eb7a1479a0451a3d6e4ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 07/preview.jpg using Guid(a48aeff9c0eb7a1479a0451a3d6e4ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c238e29f14b20c45fc4444ee78161c7') in 0.008972 seconds
+  Import took 0.015417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@1x.png
+  artifactKey: Guid(b5a4a564ac2dc4261a13719673f157e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@1x.png using Guid(b5a4a564ac2dc4261a13719673f157e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3b75b56c09d3c338a65cf7d0327cea') in 0.007759 seconds
+  Import took 0.014380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal01.tga
+  artifactKey: Guid(713b2a78d8a8d47b89e0e0976c8fa4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal01.tga using Guid(713b2a78d8a8d47b89e0e0976c8fa4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3763315af294a2930c8ceabb30f12aef') in 0.008933 seconds
+  Import took 0.015920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@2x.png
+  artifactKey: Guid(7e276a83ed42e4e3584a50b6084eef8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@2x.png using Guid(7e276a83ed42e4e3584a50b6084eef8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591c443610c9cb513a26fc407c8f4ae6') in 0.005443 seconds
+  Import took 0.011367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox2.png
+  artifactKey: Guid(2fa6580cc9f7f40919411d1ed85c6fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox2.png using Guid(2fa6580cc9f7f40919411d1ed85c6fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dc23b64c1fc0e8292bdc9b263e68be') in 0.005479 seconds
+  Import took 0.010951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@2x.png
+  artifactKey: Guid(9043fef44c60647b7a763eb86f912ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3@2x.png using Guid(9043fef44c60647b7a763eb86f912ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e2835d4eca72d3e5e4fd1f3c974ac6') in 0.006039 seconds
+  Import took 0.011485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3_separator.png
+  artifactKey: Guid(3a08de11a34c44da28de4c086fd13461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox3_separator.png using Guid(3a08de11a34c44da28de4c086fd13461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de6c92c5e313a2b61aa0b49654f214') in 0.004957 seconds
+  Import took 0.010193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 16/diffuse.tga
+  artifactKey: Guid(aa3685cf1c2424e3cb5b7c3878724835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 16/diffuse.tga using Guid(aa3685cf1c2424e3cb5b7c3878724835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25163843d136a9189935302f33de0b5') in 0.010556 seconds
+  Import took 0.017326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_0_Front+Z.png
+  artifactKey: Guid(87dff0577f22146db9255e2cf270d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_0_Front+Z.png using Guid(87dff0577f22146db9255e2cf270d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ecfc4d83f3bae63f9fbbb35c033148') in 0.024564 seconds
+  Import took 0.031090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/AR face Assets/Images/rollaball.png
+  artifactKey: Guid(6a82eb95ca0d74e18bcbd633cffee0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Images/rollaball.png using Guid(6a82eb95ca0d74e18bcbd633cffee0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd118e103ac25955365cb43a5a6e3be') in 0.012651 seconds
+  Import took 0.018042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@1x.png
+  artifactKey: Guid(d008deade2077407fbf14446df2547c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@1x.png using Guid(d008deade2077407fbf14446df2547c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd03416b36c7b5805b4d84a7eda0a2f') in 0.005829 seconds
+  Import took 0.010922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 06/preview.jpg
+  artifactKey: Guid(2c80108b25b86424abf27196b6bc3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 06/preview.jpg using Guid(2c80108b25b86424abf27196b6bc3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9091b5f4e4b93f2e63cffff1458f36') in 0.008075 seconds
+  Import took 0.013609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@1x.png
+  artifactKey: Guid(455f4fe795672465c8a4e8db3c6b9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_on@1x.png using Guid(455f4fe795672465c8a4e8db3c6b9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcd4cc1aa95e9a46076b3233be440b4') in 0.005703 seconds
+  Import took 0.010390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@2x.png
+  artifactKey: Guid(deb2afb942c3b42fbba8823da7f05894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/gizmoButton_off@2x.png using Guid(deb2afb942c3b42fbba8823da7f05894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06edcda6ba37cb49aaef972bd8eb2976') in 0.005336 seconds
+  Import took 0.010837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect.png
+  artifactKey: Guid(5006aa4ede39e49198b851d98e267b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/images/gridPivotSelect.png using Guid(5006aa4ede39e49198b851d98e267b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19189c3f426ce1d401847cadb7fe54') in 0.006869 seconds
+  Import took 0.012208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff.psd
+  artifactKey: Guid(6f8825d71b24a41f79429012e915aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff.psd using Guid(6f8825d71b24a41f79429012e915aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64980f43c4f0b1bb19290eb2a92436a') in 0.006903 seconds
+  Import took 0.012484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Materials/IgniteCoders/Simple Water Shader/Info/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IgniteCoders/Simple Water Shader/Info/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3c6112b9bc197de6fe6ce24ddc3fde') in 0.006812 seconds
+  Import took 0.013833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal14.tga
+  artifactKey: Guid(93c42318bec404daa8b26d6d79647ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal14.tga using Guid(93c42318bec404daa8b26d6d79647ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94d70907baf42d0d93e0c16c8130979') in 0.007968 seconds
+  Import took 0.013327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 06/diffuse.tga
+  artifactKey: Guid(eb89472d29af2487c8309b4cdd24baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 06/diffuse.tga using Guid(eb89472d29af2487c8309b4cdd24baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfce1d0fd2f2efd23bf24af0fd73713a') in 0.009339 seconds
+  Import took 0.014457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Rifle/Textures/rifle_diff.tga
+  artifactKey: Guid(ccf82dfb44155ff4a9dec5793e08d6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rifle/Textures/rifle_diff.tga using Guid(ccf82dfb44155ff4a9dec5793e08d6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b64653772b9b2894bc02fc96c520a6') in 0.023907 seconds
+  Import took 0.064988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007348 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox.png
+  artifactKey: Guid(bdec0523f27864115b7b727c8f5d90e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/pixelBox.png using Guid(bdec0523f27864115b7b727c8f5d90e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b29dad67b4ba5330cd6340b52e4c0b9') in 0.014031 seconds
+  Import took 0.023862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal04.tga
+  artifactKey: Guid(0e84dd67d4dfa46c78cae1bed63f9a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal04.tga using Guid(0e84dd67d4dfa46c78cae1bed63f9a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cd9a4acc276f5fefc9ef09ff041a5e') in 0.018087 seconds
+  Import took 0.028415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 08/preview.jpg
+  artifactKey: Guid(43b803fa02a13fe4baf62f168d83c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 08/preview.jpg using Guid(43b803fa02a13fe4baf62f168d83c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fbeadc1f91d2ee8b47304ef4c6d4e6') in 0.011148 seconds
+  Import took 0.022285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003390 seconds.
+  path: Assets/Materials/IgniteCoders/Simple Water Shader/Resources/WaterSurface_single.tif
+  artifactKey: Guid(11154d936b05e66498f68fa178c5cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IgniteCoders/Simple Water Shader/Resources/WaterSurface_single.tif using Guid(11154d936b05e66498f68fa178c5cfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0382e70c34ad45704b52825d67cf2e7') in 0.031190 seconds
+  Import took 0.046557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022244 seconds.
+  path: Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest.png
+  artifactKey: Guid(9a79aa322f67842448907ade5c0439ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest.png using Guid(9a79aa322f67842448907ade5c0439ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deb9c1cab139a6216ff1341bc6f7e84') in 0.032379 seconds
+  Import took 0.043449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007989 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown.png
+  artifactKey: Guid(12ea2fbedc5cc4bd191d795f44b2de75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown.png using Guid(12ea2fbedc5cc4bd191d795f44b2de75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388c8257cb2ebb76be3950b43242f2c8') in 0.012764 seconds
+  Import took 0.024618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006231 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_active.png
+  artifactKey: Guid(1066e2a70f10b481984312db993dadc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/linkButton_active.png using Guid(1066e2a70f10b481984312db993dadc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80eb56daab1b610872d5c21f05a5388') in 0.010887 seconds
+  Import took 0.020110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001106 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 12/normal.tga
+  artifactKey: Guid(de2dd5d33d59b4c3a89736b68295c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 12/normal.tga using Guid(de2dd5d33d59b4c3a89736b68295c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330a4d613b84ea8b18d9f9b28608623b') in 0.013895 seconds
+  Import took 0.022691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Emissive.png
+  artifactKey: Guid(f513d87d7c4c8b2488d758509d093bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Emissive.png using Guid(f513d87d7c4c8b2488d758509d093bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946269455ee8ef9c46175ecdeaed8c59') in 0.013037 seconds
+  Import took 0.021896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@2x.png
+  artifactKey: Guid(9b266e42522c048f6b62832985be51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton_active@2x.png using Guid(9b266e42522c048f6b62832985be51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950e69f043a1b016696b6e2fc4de3be1') in 0.008347 seconds
+  Import took 0.017377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@1x.png
+  artifactKey: Guid(43a4af66a8c594a2daa4744ed77da2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_width@1x.png using Guid(43a4af66a8c594a2daa4744ed77da2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f2135bc269e8cefced2d23fc2ff6f8') in 0.005572 seconds
+  Import took 0.012768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@2x.png
+  artifactKey: Guid(36094f49ffe31443eb5e8ea185115a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/hex_diameter@2x.png using Guid(36094f49ffe31443eb5e8ea185115a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030cba64d6f229ce318b496e59efd3cf') in 0.010719 seconds
+  Import took 0.017912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@2x.png
+  artifactKey: Guid(7ef0e648811f14f65b69c2df3f27de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton@2x.png using Guid(7ef0e648811f14f65b69c2df3f27de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531d7475e300b0feefba28f4de1358dc') in 0.009731 seconds
+  Import took 0.018826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal19.tga
+  artifactKey: Guid(6b441cf651e8b42f083a6a2e0ec5b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal19.tga using Guid(6b441cf651e8b42f083a6a2e0ec5b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2891b0f8c7ab7762b8678db2d7843f21') in 0.014570 seconds
+  Import took 0.024971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Metallic.png
+  artifactKey: Guid(181b8dbf1d1cd484281723acf3d044ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Textures/Sci-Fi Rifle_Metallic.png using Guid(181b8dbf1d1cd484281723acf3d044ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53aad558dde0aae3a989df7a7dc332') in 0.014949 seconds
+  Import took 0.023380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@2x.png
+  artifactKey: Guid(b9d7d6d7befb34b9c889e6195746c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton_active@2x.png using Guid(b9d7d6d7befb34b9c889e6195746c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b8706f4ac49946274512184e4af15f') in 0.007271 seconds
+  Import took 0.013912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 16/normal.tga
+  artifactKey: Guid(86f1bb8ca349846fc9608a73929e90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 16/normal.tga using Guid(86f1bb8ca349846fc9608a73929e90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33808c9f0c3c2105f5b16341df81a72b') in 0.012121 seconds
+  Import took 0.018710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal34.tga
+  artifactKey: Guid(88e161eb9e04a4fbdbd99a9ba8e0b51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal34.tga using Guid(88e161eb9e04a4fbdbd99a9ba8e0b51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc8a40642edeb7d3ff6dff79d51f96e') in 0.009768 seconds
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 14/preview.jpg
+  artifactKey: Guid(80f0333e3899f3d4d8077df45bb0e76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 14/preview.jpg using Guid(80f0333e3899f3d4d8077df45bb0e76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6faa186ce423270cb2b100b9e047c3') in 0.010449 seconds
+  Import took 0.017642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_1_Back-Z.png
+  artifactKey: Guid(4efb8fd75703d43cab6f01b240a7c945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_1_Back-Z.png using Guid(4efb8fd75703d43cab6f01b240a7c945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dcef886500d0781bfe1a5cdbcc5f0b') in 0.023664 seconds
+  Import took 0.030166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal23.tga
+  artifactKey: Guid(8e195413735054072a7ceafb07263a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal23.tga using Guid(8e195413735054072a7ceafb07263a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237d51a2a887ca51ce3ed2bd8ca48fe2') in 0.009442 seconds
+  Import took 0.018606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 07/normal.tga
+  artifactKey: Guid(bab5840dba5774af89ddbb1598f8aa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 07/normal.tga using Guid(bab5840dba5774af89ddbb1598f8aa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42628ed7512df1c9e4ac0821c101963') in 0.009507 seconds
+  Import took 0.015034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/headerBackground.png
+  artifactKey: Guid(620f088d04c284b21939ce24996fdbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/headerBackground.png using Guid(620f088d04c284b21939ce24996fdbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab37077ec983f256621d5b63916bcedc') in 0.006907 seconds
+  Import took 0.013129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 04/diffuse.tga
+  artifactKey: Guid(3107269fb2f494872a3b64e81fbbaee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 04/diffuse.tga using Guid(3107269fb2f494872a3b64e81fbbaee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838bd6580b165c49374bb72e1bd93772') in 0.012201 seconds
+  Import took 0.017716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal12.tga
+  artifactKey: Guid(6aae0d4a85c42431e9470756d2b5641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal12.tga using Guid(6aae0d4a85c42431e9470756d2b5641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826c3b186d7d80d555690e40eb7cf2ff') in 0.010992 seconds
+  Import took 0.018649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 12/preview.jpg
+  artifactKey: Guid(cdba7a4efd4471c4ca63992b88371151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 12/preview.jpg using Guid(cdba7a4efd4471c4ca63992b88371151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604f59523da3e245897bbd7c107f52a3') in 0.010352 seconds
+  Import took 0.016721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/AR face Assets/3D Heads/Faceted Head/Faceted_Normal.tga
+  artifactKey: Guid(c90ec9b975d7c469d9573fee196a2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/3D Heads/Faceted Head/Faceted_Normal.tga using Guid(c90ec9b975d7c469d9573fee196a2c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c11fcd64bbff66f9aef64bb3cb7a4c') in 0.029808 seconds
+  Import took 0.035565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_5_Down-Y.png
+  artifactKey: Guid(4164b771c2b784c2da3cbe10847a182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_5_Down-Y.png using Guid(4164b771c2b784c2da3cbe10847a182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb90f4a797bee7b5d48eccab1dc0817a') in 0.034425 seconds
+  Import took 0.042262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_5_Down-Y.png
+  artifactKey: Guid(213ae241f43b44b3f961dd8739080120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_5_Down-Y.png using Guid(213ae241f43b44b3f961dd8739080120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c3a64bcaf74870ec89604e50cfdcb4') in 0.021214 seconds
+  Import took 0.028118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 09/preview.jpg
+  artifactKey: Guid(48eac1a26c880a64283c0ad77895d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 09/preview.jpg using Guid(48eac1a26c880a64283c0ad77895d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be432e7916e9d65f52aa8464f6d117b') in 0.008942 seconds
+  Import took 0.017082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal15.tga
+  artifactKey: Guid(4b908356f2ba24efbb3b9875716051d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal15.tga using Guid(4b908356f2ba24efbb3b9875716051d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfac9bec80c999a19b4bb74fa0d4d249') in 0.010122 seconds
+  Import took 0.017782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_0_Front+Z.png
+  artifactKey: Guid(5fdaaa9d974104e6d8f9e575170a0c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_0_Front+Z.png using Guid(5fdaaa9d974104e6d8f9e575170a0c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd94084f3f229351c791557e087b243c') in 0.016852 seconds
+  Import took 0.023955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 08/normal.tga
+  artifactKey: Guid(a34706d0f410f4466b2e577b4b7d2a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 08/normal.tga using Guid(a34706d0f410f4466b2e577b4b7d2a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bb4e0e7014cbde76070ee6d1bbca8e') in 0.012688 seconds
+  Import took 0.019387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@1x.png
+  artifactKey: Guid(705155b2c3fce47f0a818ac32d5abe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton@1x.png using Guid(705155b2c3fce47f0a818ac32d5abe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cb7a16868f1fa1e456ca1d839541af') in 0.005942 seconds
+  Import took 0.012225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 07/diffuse.tga
+  artifactKey: Guid(6f511ca0fa1774f07a356284604e5767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 07/diffuse.tga using Guid(6f511ca0fa1774f07a356284604e5767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6278c579dd6f53342797d4a7fe13c8b1') in 0.009635 seconds
+  Import took 0.014423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Rifle/Textures/rifle_spec.tga
+  artifactKey: Guid(fa21fdef7dc6cec4ca1822db38488fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rifle/Textures/rifle_spec.tga using Guid(fa21fdef7dc6cec4ca1822db38488fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7893f01e51af246b4ccff5fcad07ccc6') in 0.009517 seconds
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Shadow.psd
+  artifactKey: Guid(741d7187968324981907bd5a897bb005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Shadow.psd using Guid(741d7187968324981907bd5a897bb005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661c01fddd820bd3d37450d9d67e87fc') in 0.005256 seconds
+  Import took 0.010153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@2x.png
+  artifactKey: Guid(6c38830c1556942fcb6ce893085d1daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@2x.png using Guid(6c38830c1556942fcb6ce893085d1daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4412c481fb345e77b43bec858f435940') in 0.005777 seconds
+  Import took 0.011287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_3_Right-X.png
+  artifactKey: Guid(938f8444195114ab791cdba8f627e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_3_Right-X.png using Guid(938f8444195114ab791cdba8f627e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba505a195546e4b0f38e58e75498aa04') in 0.020640 seconds
+  Import took 0.026405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox2.png
+  artifactKey: Guid(5d951d0a838a34f40ac2b9ce8968a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/pixelBox2.png using Guid(5d951d0a838a34f40ac2b9ce8968a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974f7fcb7d0a30a5a9d88064b396b14e') in 0.005018 seconds
+  Import took 0.010461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest 3.png
+  artifactKey: Guid(db53956d7bc64a542926b4d2aa7b036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HumanShaderPack/HairShaderSimple/Textures_hair/AlphaTest 3.png using Guid(db53956d7bc64a542926b4d2aa7b036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57fc618eb3b01fb6302e61145e13b71') in 0.060744 seconds
+  Import took 0.070012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 13/normal.tga
+  artifactKey: Guid(44523dfd1f4dc46f698c5bc71b681624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 13/normal.tga using Guid(44523dfd1f4dc46f698c5bc71b681624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbbddd3e535705d235b4203a512f91d') in 0.011968 seconds
+  Import took 0.018873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal08.tga
+  artifactKey: Guid(4038e2751da8c4eac8372312c30e2287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal08.tga using Guid(4038e2751da8c4eac8372312c30e2287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c1bc62a63d411011070b302be95197') in 0.010030 seconds
+  Import took 0.015044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal24.tga
+  artifactKey: Guid(d8b7ab9f7d8034244b986146fd702c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal24.tga using Guid(d8b7ab9f7d8034244b986146fd702c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fd5cd80b2c8e4f022b702ab1b19785') in 0.009805 seconds
+  Import took 0.015313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@1x.png
+  artifactKey: Guid(5e0cd84e9d84642ac883c25ca8d667ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/lock_closed@1x.png using Guid(5e0cd84e9d84642ac883c25ca8d667ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d3ed9a3778cd9fc14984d64e36fe93') in 0.006119 seconds
+  Import took 0.011220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 17/preview.jpg
+  artifactKey: Guid(aa7b5d03c68f6bd42a4fe089a643ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 17/preview.jpg using Guid(aa7b5d03c68f6bd42a4fe089a643ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d1b50ebf88d8e2fe62e0ee74d59332') in 0.007789 seconds
+  Import took 0.012922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Materials/UI/TestImage.png
+  artifactKey: Guid(176b7a74a6d104dcc8c0cdd5e7c6ae68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/TestImage.png using Guid(176b7a74a6d104dcc8c0cdd5e7c6ae68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b35f8d897652671522bbee52133241') in 0.019199 seconds
+  Import took 0.024477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@2x.png
+  artifactKey: Guid(c730485723dee4bcbad9d8a7593a8799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/deleteButton@2x.png using Guid(c730485723dee4bcbad9d8a7593a8799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a274e88a065ce5ae25b6defc2ace754') in 0.005413 seconds
+  Import took 0.011698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 10/normal.tga
+  artifactKey: Guid(b75e0353fc6254b739cf58226bd0987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 10/normal.tga using Guid(b75e0353fc6254b739cf58226bd0987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fd799faedcc2c04057b3079b308ab1') in 0.009293 seconds
+  Import took 0.015550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Diffuse.tga
+  artifactKey: Guid(d2ccf5c6fe46a4ac8b8b37d53538403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Diffuse.tga using Guid(d2ccf5c6fe46a4ac8b8b37d53538403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bccb9051b95ee3201b2a775ab7fb569') in 0.009608 seconds
+  Import took 0.016201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 20/preview.jpg
+  artifactKey: Guid(24ac637c34a5abb4798a57b62a329104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 20/preview.jpg using Guid(24ac637c34a5abb4798a57b62a329104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f0ca596eba55c48dde4ed82cfe12bb') in 0.007519 seconds
+  Import took 0.013104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/line_falloff_1px.png
+  artifactKey: Guid(6267c94129d874d7bafe507aa753046a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/Materials/line_falloff_1px.png using Guid(6267c94129d874d7bafe507aa753046a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80613c97027c8d4f17f0e566f72af51e') in 0.007070 seconds
+  Import took 0.012136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff-Reflected.psd
+  artifactKey: Guid(5d4852a517f1f496ebca302bd37b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/ExampleScenes/Materials/Textures/Falloff-Reflected.psd using Guid(5d4852a517f1f496ebca302bd37b988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d97b989dc065ca9933bacba227b18b1') in 0.005685 seconds
+  Import took 0.011979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@2x.png
+  artifactKey: Guid(8acb97c3fcc694bf3b7d33b1ff321337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/infoButton_active@2x.png using Guid(8acb97c3fcc694bf3b7d33b1ff321337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87141792c43213312f992c0d6b2cdc9f') in 0.006468 seconds
+  Import took 0.012150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/AR face Assets/3D Heads/Plasticene Head/Plasto_Head_AO.tga
+  artifactKey: Guid(4d2b3ed855ce347c196e1e6737a3759c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/3D Heads/Plasticene Head/Plasto_Head_AO.tga using Guid(4d2b3ed855ce347c196e1e6737a3759c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa580fe0ac8fb88508e6b78036867d29') in 0.019659 seconds
+  Import took 0.026721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 15/diffuse.tga
+  artifactKey: Guid(7a3aad608b7b147938e93834559c9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 15/diffuse.tga using Guid(7a3aad608b7b147938e93834559c9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5610ac88a1a1ad2f9a06172d5e218222') in 0.015340 seconds
+  Import took 0.020745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal20.tga
+  artifactKey: Guid(9899f46a1d997467fa15f1e15282dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal20.tga using Guid(9899f46a1d997467fa15f1e15282dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134e86291536554b9fbff832be614165') in 0.008954 seconds
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Metalness.tga
+  artifactKey: Guid(7133ed7a4efb2436dbc81df03f17547a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Metalness.tga using Guid(7133ed7a4efb2436dbc81df03f17547a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a9521e99bde5f05fbafebbe19dfd45') in 0.008324 seconds
+  Import took 0.013562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal16.tga
+  artifactKey: Guid(d42e16f6a7ce04f1d9355255e439df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal16.tga using Guid(d42e16f6a7ce04f1d9355255e439df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79252dc5340acfd888efedbf7bb308c2') in 0.010116 seconds
+  Import took 0.016070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 02/diffuse.tga
+  artifactKey: Guid(39d607db97008493eb1cf1619fbf8a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 02/diffuse.tga using Guid(39d607db97008493eb1cf1619fbf8a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dbbfac84da186810a9615fb22bc8d7') in 0.010998 seconds
+  Import took 0.016875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@1x.png
+  artifactKey: Guid(b1817d211ea3547f088cddf76f3e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/hex_diameter@1x.png using Guid(b1817d211ea3547f088cddf76f3e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1e2d3ac22366fde1d0b9263699a115') in 0.006849 seconds
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@1x.png
+  artifactKey: Guid(aaae516f9c5404f77a3e586cdd59695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/lock_closed@1x.png using Guid(aaae516f9c5404f77a3e586cdd59695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d002112ef3587cce7d8cb378ced33a') in 0.005445 seconds
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_2_Left+X.png
+  artifactKey: Guid(4b922104744dc4f5ab309b556a7677da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_2_Left+X.png using Guid(4b922104744dc4f5ab309b556a7677da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935d21c686ef4ade788a1296adb9bea7') in 0.029313 seconds
+  Import took 0.035183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@2x.png
+  artifactKey: Guid(623f6adf01f324cb7bc6aefe7f87d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@2x.png using Guid(623f6adf01f324cb7bc6aefe7f87d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5ee12a0e10c050d6347d5e26123f05') in 0.006053 seconds
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal26.tga
+  artifactKey: Guid(ae5f6b98c3bac48cea271e847bf4b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal26.tga using Guid(ae5f6b98c3bac48cea271e847bf4b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db616f24af0b1d878d20ca64eaf12aa') in 0.009505 seconds
+  Import took 0.015110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 09/normal.tga
+  artifactKey: Guid(735295c43ad9c472e8bc67ba6483bbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 09/normal.tga using Guid(735295c43ad9c472e8bc67ba6483bbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fb10cab79ffb272e733c2ba8812fc4') in 0.009901 seconds
+  Import took 0.015827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@2x.png
+  artifactKey: Guid(19e49615b2c8540fd8a11acd2a26c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/deleteButton_active@2x.png using Guid(19e49615b2c8540fd8a11acd2a26c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64f9fef3d12a78d5a553c83035631d1') in 0.006123 seconds
+  Import took 0.011780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@1x.png
+  artifactKey: Guid(1986ec06d68774254928f44b896a3913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/infoButton@1x.png using Guid(1986ec06d68774254928f44b896a3913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7226467bfa739a2925a596d0f27b2e') in 0.005168 seconds
+  Import took 0.009847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 18/diffuse.tga
+  artifactKey: Guid(a25a09bb4ade24f5cb6155e471e8108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 18/diffuse.tga using Guid(a25a09bb4ade24f5cb6155e471e8108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0ba6d890b57fee2f9248d2b36e06bf') in 0.009410 seconds
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_2_Left+X.png
+  artifactKey: Guid(c85a861fbad8f45169567bbfa332ecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_2_Left+X.png using Guid(c85a861fbad8f45169567bbfa332ecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3c3d889e611ff1f6eca1501849f664') in 0.021620 seconds
+  Import took 0.027037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@1x.png
+  artifactKey: Guid(71ef598858974450ead310c33f29d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/editButton@1x.png using Guid(71ef598858974450ead310c33f29d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a50d69fee1a2ce196ce440d0856817') in 0.005366 seconds
+  Import took 0.010985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_1_Back-Z.png
+  artifactKey: Guid(8e7251cff63ea413db367d2893f57bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_1_Back-Z.png using Guid(8e7251cff63ea413db367d2893f57bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231a0a1854efc6f352f95fefb819bb53') in 0.014858 seconds
+  Import took 0.021153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal28.tga
+  artifactKey: Guid(237352201ef124467b06c1dda24571e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal28.tga using Guid(237352201ef124467b06c1dda24571e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26955ed947157a24fb17b95d5754b1c3') in 0.009646 seconds
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_on.png
+  artifactKey: Guid(990963b32226c440fb1a72e47e0ad7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/reset_on.png using Guid(990963b32226c440fb1a72e47e0ad7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3eb52e417a762affb37d47dc39f1570') in 0.005820 seconds
+  Import took 0.011498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@2x.png
+  artifactKey: Guid(f6a4baf90a7bb4e4a92abe07f1a0a9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@2x.png using Guid(f6a4baf90a7bb4e4a92abe07f1a0a9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a110984684a1795737f938ad347c6b73') in 0.007494 seconds
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AR face Assets/Face Textures/Robot Face/Robot_Albedo.tga
+  artifactKey: Guid(86438631d251f40a99f0b8f365c62e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AR face Assets/Face Textures/Robot Face/Robot_Albedo.tga using Guid(86438631d251f40a99f0b8f365c62e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525946b1c77c6a302e0a49aebe4ab004') in 0.018666 seconds
+  Import took 0.024811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 13/diffuse.tga
+  artifactKey: Guid(43b95b9f5a1ea49ffb3ff1c4f41688fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 13/diffuse.tga using Guid(43b95b9f5a1ea49ffb3ff1c4f41688fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dcc9afcb63039df8ada46e0b0757b6') in 0.015352 seconds
+  Import took 0.022856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Materials/UI/580b585b2edbce24c47b243f.png
+  artifactKey: Guid(0680cb0c0e75c407eb21333215315b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/580b585b2edbce24c47b243f.png using Guid(0680cb0c0e75c407eb21333215315b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88a09eb01ebc9b195f7aa83a00e9bcc') in 0.017614 seconds
+  Import took 0.026057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 09/diffuse.tga
+  artifactKey: Guid(04c93bab34e514f0f979adb8a9e6d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 09/diffuse.tga using Guid(04c93bab34e514f0f979adb8a9e6d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc9eae337ac4fc2970393494ca6afd') in 0.012615 seconds
+  Import took 0.018038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/headerBackground.png
+  artifactKey: Guid(db5b85df63e094a1c96f11019bccc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/headerBackground.png using Guid(db5b85df63e094a1c96f11019bccc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3134daf1cf6ecd058a4efad5aac5382') in 0.005890 seconds
+  Import took 0.011684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_4_Up+Y.png
+  artifactKey: Guid(c3e1d31cf8ef742ad8aed75a1fdaff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_4_Up+Y.png using Guid(c3e1d31cf8ef742ad8aed75a1fdaff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56ec0aefc7a003df8a77ec07cb0b4d9') in 0.018611 seconds
+  Import took 0.025192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ground.psd
+  artifactKey: Guid(b0749c40ee03a46eaa0401867a08b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/ExampleScenes/Example5_PointGraph/ground.psd using Guid(b0749c40ee03a46eaa0401867a08b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987340017698373efe90c0b3b93e72cb') in 0.007376 seconds
+  Import took 0.012687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp_on.png
+  artifactKey: Guid(4c914fdaf554243fe9fb26afc323caef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp_on.png using Guid(4c914fdaf554243fe9fb26afc323caef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3933fc576ab0c6820a324770676872') in 0.008189 seconds
+  Import took 0.015161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png
+  artifactKey: Guid(e71fc492f440446b99875b8e1df890ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png using Guid(e71fc492f440446b99875b8e1df890ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df0058e800e467dca5880702d2be34d') in 0.521617 seconds
+  Import took 0.531646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal06.tga
+  artifactKey: Guid(d9749ab72ff754520b563b73c0ee4acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Metal Materials/Textures/MetalPlates_Normal06.tga using Guid(d9749ab72ff754520b563b73c0ee4acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7a4e0d068e03f9eb5f06e2e5636264') in 0.008195 seconds
+  Import took 0.013863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png
+  artifactKey: Guid(33dc9d88f32144697ba9777ee1aaae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png using Guid(33dc9d88f32144697ba9777ee1aaae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177445de5e1bdc3db5e82bb89c3baf0d') in 0.013493 seconds
+  Import took 0.018106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 03/diffuse.tga
+  artifactKey: Guid(5e4ffdca7ad454782877a9c4fab0b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 03/diffuse.tga using Guid(5e4ffdca7ad454782877a9c4fab0b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37130657eecda806b0d4d0c8d2a5f9cc') in 0.010938 seconds
+  Import took 0.017068 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000281 seconds.
-  path: Assets/Prefab/NPC.prefab
-  artifactKey: Guid(f2896290dd17d4713aeba889729fbb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/NPC.prefab using Guid(f2896290dd17d4713aeba889729fbb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0d1f0aef93b46d49e6629f8a6f0ea4') in 0.024192 seconds
-  Import took 0.027471 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001170 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.3 MB.
-System memory in use after: 152.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1736.
-Total: 2.286481 ms (FindLiveObjects: 0.271564 ms CreateObjectMapping: 0.098063 ms MarkObjects: 1.877685 ms  DeleteObjects: 0.036905 ms)
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@1x.png
+  artifactKey: Guid(e0cb3cc51f25a48bf8b0c647452b09b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/DarkSkin/editButton_active@1x.png using Guid(e0cb3cc51f25a48bf8b0c647452b09b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d5ba7e662fba63f4dceb941d053a48') in 0.006770 seconds
+  Import took 0.012704 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 289.551346 seconds.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/Map/Concrete Materials/pattern 08/diffuse.tga
+  artifactKey: Guid(6e24851eb28604f44b1e48956940651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Map/Concrete Materials/pattern 08/diffuse.tga using Guid(6e24851eb28604f44b1e48956940651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3c4bedb19a4316e3ee47ec46b444c9') in 0.010276 seconds
+  Import took 0.016195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/colorInterpolationBox.png
+  artifactKey: Guid(9bf4f8f9d8795455bb87213dd56ed793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AstarPathfindingProject/Editor/EditorAssets/LightSkin/colorInterpolationBox.png using Guid(9bf4f8f9d8795455bb87213dd56ed793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208b72254445ea57ce38e5ce331be44d') in 0.006505 seconds
+  Import took 0.011424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 854.915075 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e523df8ce28b2e6fdcb2c7a2f649b033') in 0.961640 seconds
+  Import took 0.967922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(c00adb7a8e90a45ad87330d734bd1853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player.prefab using Guid(c00adb7a8e90a45ad87330d734bd1853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126d905adbf04368fd99ec95cd421d6') in 0.303744 seconds
+  Import took 0.314818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefab/TurretBullet.prefab
+  artifactKey: Guid(95e1653f374fc42fd8a0e316d5abdfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TurretBullet.prefab using Guid(95e1653f374fc42fd8a0e316d5abdfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f48887770f370b13bec7d8bed0a8447') in 0.471369 seconds
+  Import took 0.476661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
   path: Assets/Prefab/RifleBullet.prefab
   artifactKey: Guid(326b4a47bca4d41e396335a6a9ebc9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/RifleBullet.prefab using Guid(326b4a47bca4d41e396335a6a9ebc9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d1857ef32234bc66bba3ec025e35e0') in 0.087914 seconds
-  Import took 0.092897 seconds .
+Start importing Assets/Prefab/RifleBullet.prefab using Guid(326b4a47bca4d41e396335a6a9ebc9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34845bcd13e62f6bd71fda0c8721e73c') in 0.015561 seconds
+  Import took 0.021908 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.185786 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac0a4f137d60e5c7a1858ee902a0001') in 0.058613 seconds
-  Import took 0.063616 seconds .
+  Time since last request: 749.978090 seconds.
+  path: Assets/Scenes/CutScene 1.unity
+  artifactKey: Guid(c301fc74895024bff962fb956ac370f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CutScene 1.unity using Guid(c301fc74895024bff962fb956ac370f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a268f6e963cea7ed712c81da54c5c111') in 0.001868 seconds
+  Import took 0.008760 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.438763 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8586d3456a5aa04a156cec95662a91') in 0.039759 seconds
-  Import took 0.045174 seconds .
+  Time since last request: 300.181664 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_checkerGround3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(404d7e099b85a4f6299c19c417310f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_checkerGround3d3aba195e4d26ee.terrainlayer using Guid(404d7e099b85a4f6299c19c417310f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7d9001a18bc170a50062ab02199b4d') in 0.101842 seconds
+  Import took 0.108052 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.725869 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35644155c166f211c2db1c6df51d0b82') in 0.049149 seconds
-  Import took 0.055017 seconds .
+  Time since last request: 0.000353 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedocc0f254a2c535401.terrainlayer
+  artifactKey: Guid(219c77137f39e4728bc57f2fba72b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassHillAlbedocc0f254a2c535401.terrainlayer using Guid(219c77137f39e4728bc57f2fba72b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6da3024fb18512790e0a256bbc50f2') in 0.004741 seconds
+  Import took 0.011325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.761866 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05e6afa4d9a0f20e9fd020662c83334') in 0.038636 seconds
-  Import took 0.044202 seconds .
+  Time since last request: 0.000304 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_CliffAlbedoSpecularcc0f254a2c535401.terrainlayer
+  artifactKey: Guid(8339b61d4aab947548f9148cf802bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_CliffAlbedoSpecularcc0f254a2c535401.terrainlayer using Guid(8339b61d4aab947548f9148cf802bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f969a21953640cc702dd92edb0ecbed1') in 0.004249 seconds
+  Import took 0.010863 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.275714 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5270bd2aa1424eaa2b85a9301e8293ee') in 0.039318 seconds
-  Import took 0.044331 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MudRockyAlbedoSpecularMudRockyNormalsb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(5ecc69bbd30af4dc09e8bd96b9bd054b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MudRockyAlbedoSpecularMudRockyNormalsb3407d0e55802f81.terrainlayer using Guid(5ecc69bbd30af4dc09e8bd96b9bd054b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a909af066d71013f5d0d68b2e3120fd') in 0.005176 seconds
+  Import took 0.011333 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.844251 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b65652669f53c3d207c857ff4bf82e') in 0.046884 seconds
-  Import took 0.052252 seconds .
+  Time since last request: 0.000289 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SandAlbedocc0f254a2c535401.terrainlayer
+  artifactKey: Guid(689a6fdc61357477a9cd05982a4e88a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_SandAlbedocc0f254a2c535401.terrainlayer using Guid(689a6fdc61357477a9cd05982a4e88a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ae20fc1e3524ef047cb14d7be72722') in 0.004122 seconds
+  Import took 0.010360 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 26.058060 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c8ff6017082c2b14e2ff25be4762b6') in 0.041415 seconds
-  Import took 0.046124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.916036 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cca3f115556ce538ed83ebecf884db7') in 0.036156 seconds
-  Import took 0.041589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.916224 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(92e23afb2e86c4486abcd061f21497a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba77a3ab579a494f5d0a45176e4fd9c8') in 0.038030 seconds
-  Import took 0.044886 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001649 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.511 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.1 MB.
-System memory in use after: 153.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 2.278299 ms (FindLiveObjects: 0.321620 ms CreateObjectMapping: 0.094138 ms MarkObjects: 1.840260 ms  DeleteObjects: 0.020813 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 681.202729 seconds.
-  path: Assets/Scripts/PlayerScript.cs
-  artifactKey: Guid(eef780b792fd343ba9348cd751b707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerScript.cs using Guid(eef780b792fd343ba9348cd751b707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f05871c851d0cc9b01d0170d062913') in 0.004680 seconds
-  Import took 0.007655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004019 seconds.
-  path: Assets/Scripts/PlayerScript.cs
-  artifactKey: Guid(eef780b792fd343ba9348cd751b707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerScript.cs using Guid(eef780b792fd343ba9348cd751b707da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f05871c851d0cc9b01d0170d062913') in 0.002222 seconds
-  Import took 0.005710 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1256 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 153.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1743.
-Total: 4.829345 ms (FindLiveObjects: 0.582994 ms CreateObjectMapping: 0.195079 ms MarkObjects: 4.022642 ms  DeleteObjects: 0.025452 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

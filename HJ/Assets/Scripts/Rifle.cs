@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Rifle : Gun
 {
     [SerializeField] GameObject TracerBul;
-
     public float automodeDelay;
     float automodeDelayTmp;
 
@@ -46,12 +45,13 @@ public class Rifle : Gun
         {
             isAutomode = !isAutomode;
             BulletInfoUI();
+
+            transform.Find("ChangeModeSound").GetComponent<AudioSource>().Play();
         }
     }
 
     public override void Fire()
     {
-
         if (isAutomode)
         {
             if (automodeDelayTmp > automodeDelay)
@@ -65,6 +65,7 @@ public class Rifle : Gun
                         tracerBul.transform.GetComponent<Bullet>().SetBulletDetails(AutoDamage*tracerBulDamageMultiplier, AutoSpeed, "Enemy");
                         bulletFireCount++;
                         BulletInfoUI();
+                        transform.Find("FireSound").GetComponent<AudioSource>().Play();
                     }
                     else
                     {
@@ -73,6 +74,7 @@ public class Rifle : Gun
                         untilTracer--;
                         bulletFireCount++;
                         BulletInfoUI();
+                        transform.Find("FireSound").GetComponent<AudioSource>().Play();
                     }
                     automodeDelayTmp = 0;
                 }
@@ -89,6 +91,7 @@ public class Rifle : Gun
                         bul.transform.GetComponent<Bullet>().SetBulletDetails(NormalDamage, 0, "Enemy");
                         SnipeFireCount++;
                         BulletInfoUI();
+                        transform.Find("FireSound").GetComponent<AudioSource>().Play();
                     }
                     else{
                         if(untilTracer <= 0){
@@ -98,6 +101,7 @@ public class Rifle : Gun
                             tracerBul.transform.GetComponent<Bullet>().SetPierce(NormalPierce);
                             SnipeFireCount++;
                             BulletInfoUI();
+                            transform.Find("FireSound").GetComponent<AudioSource>().Play();
                         }
                         else
                         {
@@ -107,6 +111,7 @@ public class Rifle : Gun
                             untilTracer--;
                             SnipeFireCount++;
                             BulletInfoUI();
+                            transform.Find("FireSound").GetComponent<AudioSource>().Play();
                         }
                     }
                     normalDelayTmp = 0;

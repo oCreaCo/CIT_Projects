@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    System.Random random = new System.Random();
+
     public static PlayerScript playerScript;
     [SerializeField] float MoveSpeed;
     public float CameraSensivity;
     [SerializeField] float YRotationLimit;
     [SerializeField] int YRotationReverse;
-    [SerializeField] Transform Head;
-    //[SerializeField] Transform ArmPart;
+    [SerializeField] Transform camObj;
+    public Transform Head;
+    [SerializeField] Transform ArmPart;
     public Animator Anim;
     [SerializeField] Transform Weapon;
     [SerializeField] Gun gun;
+    [SerializeField] Transform firePoint;
+    [SerializeField] GameObject bullet;
     public bool canMove = true;
     public bool canSwitchWeapon = true;
     protected bool Wielding = false;
@@ -23,14 +28,29 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] int playerOriHp;
     [SerializeField] int playerHp;
 
+    [SerializeField] LayerMask whatToHit;
+    RaycastHit hit;
+
+    public int GetHP() {return playerHp;}
+
+    public void SetDefault(int curHP, Vector3 pos, float _xRot, float _yRot)
+    {
+        playerHp = curHP;
+        transform.position = pos;
+        if (_xRot > YRotationLimit) _xRot -= 360;
+        xRot = _xRot;
+        yRot = _yRot;
+    }
+
     void Start()
     {
         playerScript = this;
-        playerHp = playerOriHp;
+        if (playerHp == 0) playerHp = playerOriHp;
     }
 
     void Update()
     {
+
         if (canMove) {
             float x = Input.GetAxisRaw("Horizontal");
             float z = Input.GetAxisRaw("Vertical");
@@ -47,7 +67,9 @@ public class PlayerScript : MonoBehaviour
             transform.Translate(dir * MoveSpeed * Time.deltaTime);
         }
 
-        MouseRot();
+        // if (!UIManager.uiManager.isEscMenuActived)
+            MouseRot();
+
         if (Cooling > 0) Cooling -= Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.Alpha1) && Cooling <= 0 && canSwitchWeapon)
         {
@@ -62,9 +84,18 @@ public class PlayerScript : MonoBehaviour
                 Cooling = 1.25f;
             }
         }
-        if(Input.GetButtonDown("Reload") && gun.Disabled == false){
-            if(gun.isAutomode==true && gun.bulletFireCount != 0) Anim.SetTrigger("Reload");
-            if(gun.isAutomode==false && gun.SnipeFireCount != 0) Anim.SetTrigger("Reload");
+        if (Input.GetButtonDown("Reload") && gun.Disabled == false)
+        {
+            if (gun.isAutomode == true && gun.bulletFireCount != 0)
+            {
+                Anim.SetTrigger("Reload");
+                Weapon.Find("ReloadSound").GetComponent<AudioSource>().Play();
+            }
+            if (gun.isAutomode == false && gun.SnipeFireCount != 0)
+            {
+                Anim.SetTrigger("Reload");
+                Weapon.Find("ReloadSound").GetComponent<AudioSource>().Play();
+            }
         }
     }
 
@@ -79,20 +110,31 @@ public class PlayerScript : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(transform.rotation.x, yRot, transform.rotation.z);
         Head.localRotation = Quaternion.Euler(xRot, 0, 0);
-        //ArmPart.localRotation = Quaternion.Euler(xRot, 0, 0);
+
+        if (gun.isRifleOnHands)
+        {
+            ArmPart.localRotation = Quaternion.Euler(xRot, 0, 0);
+            if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, Mathf.Infinity, whatToHit))
+                camObj.rotation = Quaternion.LookRotation(hit.point - camObj.position);
+        }
+        else
+        {
+            ArmPart.localRotation = Quaternion.Euler(Vector3.zero);
+            camObj.localRotation = Quaternion.Euler(Vector3.zero);
+        }
     }
     public void WeaponSwitch()
     {
         if (Wielding == false)
         {
-            Weapon.parent = transform.GetChild(9).transform.GetChild(2);
+            Weapon.parent = transform.GetChild(10).transform.GetChild(2);
             Wielding = true;
             Weapon.localPosition = new Vector3(0, 0, 0);
             Weapon.localRotation = Quaternion.Euler(0, 0, 0);
         }
         else
         {
-            Weapon.parent = transform.GetChild(5);
+            Weapon.parent = transform.GetChild(6);
             Wielding = false;
             Weapon.localPosition = new Vector3(0, 0, 0);
             Weapon.localRotation = Quaternion.Euler(0, 0, 0);
@@ -121,8 +163,9 @@ public class PlayerScript : MonoBehaviour
         gun.Reload();
         gun.BulletInfoUI();
     }
-    public void DisableOrEnableFire(){
-        if(gun.Disabled) gun.Disabled = false;
+    public void DisableOrEnableFire()
+    {
+        if (gun.Disabled) gun.Disabled = false;
         else gun.Disabled = true;
     }
 }

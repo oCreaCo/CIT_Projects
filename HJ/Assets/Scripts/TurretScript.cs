@@ -16,6 +16,7 @@ public class TurretScript : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] int pierce;
     [SerializeField] int BulletDespawnTimer = 0;
+    [SerializeField] GameObject Player;
     float tmp = 0;
     int currentFirePoint = 0;
     
@@ -38,7 +39,6 @@ public class TurretScript : MonoBehaviour
                 else Enemies.Add(other.gameObject);
             }
             else Enemies.Add(other.gameObject);
-            Enemies.Add(other.gameObject);
         }
     }
 

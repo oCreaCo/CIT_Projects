@@ -12,18 +12,22 @@ public class UpgradingStation : MonoBehaviour
     [SerializeField] UpgradeMenu UpgradePanel;
     public bool open = false;
     bool canOpen = false;
+    float Cooldown = 0.0f;
 
     void Update(){
         UpgradingStation.upgradingStation = this;
+        if(Cooldown > 0) Cooldown -= Time.deltaTime;
 
-        if(canOpen && Input.GetButtonDown("OpenTab") && open == false){
+        if(canOpen && Input.GetButtonDown("OpenTab") && open == false && Cooldown <= 0){
             open = true;
             Player.canMove = false;
+            Cooldown = 1.5f;
             UpgradePanel.Apper(false);
         }
-        else if(open == true && Input.GetButtonDown("OpenTab")){
+        else if(open == true && Input.GetButtonDown("OpenTab") && Cooldown <= 0){
             open = false;
             Player.canMove = true;
+            Cooldown = 1.5f;
             UpgradePanel.Apper(true);
         }
     }

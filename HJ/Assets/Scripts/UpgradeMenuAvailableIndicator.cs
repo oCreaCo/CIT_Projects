@@ -11,7 +11,7 @@ public class UpgradeMenuAvailableIndicator : MonoBehaviour
     public void MoveCall(bool A){
         if(moveCoroutine != null) StopCoroutine(moveCoroutine);
         moveCoroutine = Move(A);
-        if(!A) transform.GetComponent<RectTransform>().localPosition = new Vector3(0, 250, 0);
+        if(!A) transform.GetComponent<RectTransform>().localPosition = new Vector3(0, 300, 0);
         StartCoroutine(moveCoroutine);
     }
 
@@ -26,7 +26,7 @@ public class UpgradeMenuAvailableIndicator : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
         if(Disapper){
-            transform.GetComponent<RectTransform>().localPosition = new Vector3(0, 250, 0);
+            transform.GetComponent<RectTransform>().localPosition = new Vector3(0, 300, 0);
         }
     }
 }

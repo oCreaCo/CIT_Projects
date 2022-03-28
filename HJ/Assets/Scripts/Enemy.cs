@@ -3,19 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using Pathfinding;
+
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] float range;
-    [SerializeField] LayerMask whatTohit;
+    Animator anim;
+    [SerializeField] bool HasAnimation = false;
+ 
+    [SerializeField] LayerMask whatToHit;
     RaycastHit hit;
 
     [SerializeField] float FireDelay;
     [SerializeField] float FireDelayTmp;
 
+    [SerializeField] GameObject Target;
+    [SerializeField] LayerMask WhatToTarget;
+    [SerializeField] float[] DetectRange;
+    [SerializeField] GameObject AimPart;
+    [SerializeField] bool AimPartYRotation;
+    [SerializeField] GameObject Body;
+    [SerializeField] bool BodyRotation;
+    [SerializeField] bool BodyYRotation;
     [SerializeField] GameObject Bullet;
     [SerializeField] GameObject Muzzle;
-
-    [SerializeField] Transform firePoint;
+    [SerializeField] GameObject[] FirePoints;
 
     [SerializeField] int EnemyOriHp;
     [SerializeField] int EnemyHp;
@@ -30,27 +41,92 @@ public class Enemy : MonoBehaviour
     int IndicatorDestroyCount = 0;
     IEnumerator CountCoroutine;
 
+    [SerializeField] float enemyGunEnableDistance;
+    [SerializeField] float enemyWalkEnableDistance;
+
+    AIPath aip;
+    AIDestinationSetter aid;
+
+    public int GetHP() {return EnemyHp;}
+    
     void Start()
     {
+        anim = GetComponent<Animator>();
+
         FireDelayTmp = FireDelay;
         EnemyHp = EnemyOriHp;
+
+        aip = GetComponent<AIPath>();
+        aid = GetComponent<AIDestinationSetter>();
     }
 
     void Update()
     {
         FireDelayTmp += Time.deltaTime;
+        bool TargetExists = false;
+        for(int i = 0 ; i < DetectRange.Length ; i++){
+            Collider[] hit = Physics.OverlapSphere(transform.position, DetectRange[i], WhatToTarget);
+            int smallest = 999, smallestCode = 0;
+            for(int k = 0 ; k < hit.Length ; k++){
+                if(hit[k].GetComponent<TargetObject>() != null){
+                    if(hit[k].GetComponent<TargetObject>().priority < smallest){
+                        smallest = hit[k].GetComponent<TargetObject>().priority;
+                        smallestCode = k;
+                    }
+                }
+            }
+            if(hit.Length != 0){
+                Target = hit[smallestCode].gameObject;
+                TargetExists = true;
+                break;
+            }
+        }
+        if(TargetExists == false){
+            if(HasAnimation) anim.SetBool("isInArea", false);
+            return;
+        }
 
-        if (FireDelayTmp > FireDelay)
+        Vector3 vec = AimPart.transform.position - Target.transform.position;
+        if(AimPartYRotation == false) AimPart.transform.rotation = Quaternion.LookRotation(new Vector3(vec.x, 0, vec.z));
+        else AimPart.transform.rotation = Quaternion.LookRotation(new Vector3(vec.x, vec.y, vec.z));
+
+        if (/*Vector3.Distance(Target.transform.position, transform.position) < enemyGunEnableDistance*/true)
         {
-            if (Physics.Raycast(firePoint.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, whatTohit))
+            // Shoot
+            if (FireDelayTmp > FireDelay)
             {
-                //Debug.Log(hit.transform);
-                FireDelayTmp = 0;
-                GameObject bul = Instantiate(Bullet, Muzzle.transform.position, Muzzle.transform.rotation);
-                bul.GetComponent<Bullet>().SetBulletDetails(EnemyDamage, EnemyBulletSpeed, "Player");
+                if (Physics.Raycast(Muzzle.transform.position, Muzzle.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, whatToHit))
+                {
+                    //Debug.Log(hit.transform);
+                    FireDelayTmp = 0;
+                    for(int i = 0 ; i < FirePoints.Length ; i++){
+                        GameObject bul = Instantiate(Bullet, FirePoints[i].transform.position, FirePoints[i].transform.rotation);
+                        bul.tag = "EnemyBullet";
+                        bul.GetComponent<Bullet>().SetBulletDetails(EnemyDamage, EnemyBulletSpeed, "Player");
+                        transform.GetComponent<AudioSource>().Play();
+                    }
+                }
             }
 
+            if(HasAnimation) anim.SetBool("isInArea", true);
         }
+        else
+        {
+            if(HasAnimation) anim.SetBool("isInArea", false);
+        }
+
+        /*if (Vector3.Distance(Player.transform.position, transform.position) < enemyWalkEnableDistance)
+        {
+            if(HasAnimation) anim.SetBool("Walking", true);
+            aid.target = Player.transform;
+            aip.canMove = true;
+        }
+        else
+        {
+            if(HasAnimation) anim.SetBool("Walking", true);
+            aid.target = null;
+            aip.canMove = false;
+        }*/
     }
 
     public void EnemyGetDamage(int dmg)
@@ -97,6 +173,7 @@ public class Enemy : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
     IEnumerator IndicatorDisapper(){
         while(IndicatorDestroyCount > 0){
             yield return new WaitForSeconds(1.0f);
@@ -111,4 +188,9 @@ public class Enemy : MonoBehaviour
         }
         CountCoroutine = null;
     }
+}
+[System.Serializable] struct T{
+    public float TargetDistance;
+    public GameObject TargetObject;
+
 }

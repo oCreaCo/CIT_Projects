@@ -8,7 +8,6 @@ public class UIManager : MonoBehaviour
     public static UIManager uiManager;
 
     [SerializeField] GameObject escMenu;
-    [SerializeField] GameObject crossbow;
 
     [SerializeField] GameObject settingsMenu;
     [SerializeField] GameObject mouseSensitiveInput;
@@ -48,14 +47,12 @@ public class UIManager : MonoBehaviour
             {
                 Time.timeScale = 0.0f;
                 escMenu.SetActive(true);
-                crossbow.SetActive(false);
                 isEscMenuActived = true;
             }
             else
             {
                 Time.timeScale = 1.0f;
                 escMenu.SetActive(false);
-                crossbow.SetActive(true);
                 isEscMenuActived = false;
             }
         }
@@ -88,7 +85,6 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         escMenu.SetActive(false);
-        crossbow.SetActive(true);
         isEscMenuActived = false;
     }
 
